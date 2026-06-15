@@ -10,15 +10,17 @@ tags:
   - Tragedy
 fileClass: novel
 aliases:
-  - 'The Main Heroines are Trying to Kill Me'
-status: Reading
-author: 'Kim Mamo'
-source-url: 'https://www.novelupdates.com/series/the-main-heroines-are-trying-to-kill-me/'
+  - The Main Heroines are Trying to Kill Me
+status: Dropped
+author: Kim Mamo
+source-url: https://www.novelupdates.com/series/the-main-heroines-are-trying-to-kill-me/
 total-chapters: 30
 current-chapter: 21
-rating: 
-description: 'To save the hopeless Dark Fantasy World, I held back my tears and destroyed the world, then killed the Demon King and returned. Now, I’m trying to save the world using the “System” I gained as a “Regressor’s Privilege”… But the Main Heroines have also awakened their own memories of the previous timeline. God damn it.'
+rating: 4
+description: To save the hopeless Dark Fantasy World, I held back my tears and destroyed the world, then killed the Demon King and returned. Now, I’m trying to save the world using the “System” I gained as a “Regressor’s Privilege”… But the Main Heroines have also awakened their own memories of the previous timeline. God damn it.
 genre: []
+cssclasses:
+  - novel-page
 ---
 
 # The Main Heroines are Trying to Kill Me
@@ -26,6 +28,13 @@ genre: []
 ![[covers/The_Main_Heroines_are_Trying_to_Kill_Me.webp|100|left]]
 
 > [Read Here](https://www.novelupdates.com/series/the-main-heroines-are-trying-to-kill-me/)
+
+| | |
+| --- | --- |
+| **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
+| **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
+| **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c21`, latest `c30`_
 

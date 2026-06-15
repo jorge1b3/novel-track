@@ -16,9 +16,11 @@ author: MyriadWriter
 source-url: https://novelfire.net/book/turns-out-im-in-a-villain-clan/chapters?page=&sort_by=desc
 total-chapters: 632
 current-chapter: 601
-rating:
+rating: 4
 description: "\"F**K! I'm dead!\" That was the first word I muttered after regaining my memories from Earth. Reincarnating into a world of cultivation should’ve been a blessing. Adventure, immortality, power—what’s not to love? But then I remembered what my family did. My sister just broke off an engagement with a crippled young master—definitely a future protagonist. My mother ripped a Dao Bone from my cousin and gave it to me—guaranteed future revenge arc. And me? I’m already a third-rate villain: bullying weaklings and flaunting my Bai Clan name. Worst part? Despite the Dao Bone, I’m still trash at cultivation. My only hope? The System... which I’ve had for years. "
 genre: []
+cssclasses:
+  - novel-page
 ---
 
 # Turns Out, I’m In A Villain Clan!
@@ -27,7 +29,16 @@ genre: []
 
 "F**K! I'm dead!" That was the first word I muttered after regaining my memories from Earth. Reincarnating into a world of cultivation should’ve been a blessing. Adventure, immortality, power—what’s not to love? But then I remembered what my family did. My sister just broke off an engagement with a crippled young master—definitely a future protagonist. My mother ripped a Dao Bone from my cousin and gave it to me—guaranteed future revenge arc. And me? I’m already a third-rate villain: bullying weaklings and flaunting my Bai Clan name. Worst part? Despite the Dao Bone, I’m still trash at cultivation. My only hope? The System... which I’ve had for years.
 
-> **Author:** MyriadWriter · **Chapters: 598 / 599** · [Read Here](https://novellive.app/book/turns-out-im-in-a-villain-clan)
+> **Author:** MyriadWriter · [Read Here](https://novellive.app/book/turns-out-im-in-a-villain-clan)
+
+| | |
+| --- | --- |
+| **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
+| **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
+| **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Genres** | `=this.file.tags` |
+
+_NU: my chapter `598`, latest `599`_
 
 ---
 

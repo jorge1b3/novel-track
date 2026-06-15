@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
-    "novel-dashboard"
+    "novel-dashboard",
+    "novel-page"
   ]
 }

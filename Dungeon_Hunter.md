@@ -16,9 +16,11 @@ author: 'Onhu'
 source-url: 'https://www.novelupdates.com/series/dungeon-hunter/'
 total-chapters: 242
 current-chapter: 242
-rating: 
+rating: 4
 description: 'I failed and will challenge again. There is no room for failure in my second life! 72 dungeons and their owners that appeared on earth. And the Awakened. I am a hunter that will devour all of them.'
 genre: []
+cssclasses:
+  - novel-page
 ---
 
 # Dungeon Hunter
@@ -26,6 +28,13 @@ genre: []
 ![[covers/Dungeon_Hunter.webp|100|left]]
 
 > [Read Here](https://www.novelupdates.com/series/dungeon-hunter/)
+
+| | |
+| --- | --- |
+| **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
+| **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
+| **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c242`, latest `c242`_
 

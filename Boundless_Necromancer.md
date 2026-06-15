@@ -7,15 +7,17 @@ tags:
   - Harem
 fileClass: novel
 aliases:
-  - 'Boundless Necromancer'
+  - Boundless Necromancer
 status: Reading
-author: 'SunWoon'
-source-url: 'https://www.novelupdates.com/series/boundless-necromancer/'
+author: SunWoon
+source-url: https://www.novelupdates.com/series/boundless-necromancer/
 total-chapters: 166
 current-chapter: 0
-rating: 
-description: 'I never thought I could become a hunter. I never thought I would get the chance. But that wasn’t true. 「 ‘Tower of Trials’ has selected all suitable candidates from Earth. 」 「 Please select your difficulty. 」 「The chosen difficulty will be directly proportional to your rewards. 」 I was given a chance now. A special one at that.'
+rating: 3
+description: I never thought I could become a hunter. I never thought I would get the chance. But that wasn’t true. 「 ‘Tower of Trials’ has selected all suitable candidates from Earth. 」 「 Please select your difficulty. 」 「The chosen difficulty will be directly proportional to your rewards. 」 I was given a chance now. A special one at that.
 genre: []
+cssclasses:
+  - novel-page
 ---
 
 # Boundless Necromancer
@@ -23,6 +25,13 @@ genre: []
 ![[covers/Boundless_Necromancer.webp|100|left]]
 
 > [Read Here](https://www.novelupdates.com/series/boundless-necromancer/)
+
+| | |
+| --- | --- |
+| **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
+| **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
+| **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Genres** | `=this.file.tags` |
 
 _NU: my chapter `prologue`, latest `c166`_
 

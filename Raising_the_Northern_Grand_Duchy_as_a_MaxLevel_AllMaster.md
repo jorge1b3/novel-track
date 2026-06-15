@@ -10,15 +10,17 @@ tags:
   - Supernatural
 fileClass: novel
 aliases:
-  - 'Raising the Northern Grand Duchy as a Max-Level All-Master'
-status: Reading
-author: 'E급작가'
-source-url: 'https://www.novelupdates.com/series/raising-the-northern-grand-duchy-as-a-max-level-all-master/'
+  - Raising the Northern Grand Duchy as a Max-Level All-Master
+status: On-Hold
+author: E급작가
+source-url: https://www.novelupdates.com/series/raising-the-northern-grand-duchy-as-a-max-level-all-master/
 total-chapters: 101
 current-chapter: 101
-rating: 
-description: 'I’ve become the ultimate crafting all-master character in a game world, excelling at everything except combat. And now, I am the only one who can save this Northern Grand Duchy.'
+rating: 4
+description: I’ve become the ultimate crafting all-master character in a game world, excelling at everything except combat. And now, I am the only one who can save this Northern Grand Duchy.
 genre: []
+cssclasses:
+  - novel-page
 ---
 
 # Raising the Northern Grand Duchy as a Max-Level All-Master
@@ -26,6 +28,13 @@ genre: []
 ![[covers/Raising_the_Northern_Grand_Duchy_as_a_MaxLevel_AllMaster.webp|100|left]]
 
 > [Read Here](https://www.novelupdates.com/series/raising-the-northern-grand-duchy-as-a-max-level-all-master/)
+
+| | |
+| --- | --- |
+| **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
+| **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
+| **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c101 part2`, latest `c80`_
 

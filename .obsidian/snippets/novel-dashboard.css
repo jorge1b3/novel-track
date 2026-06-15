@@ -19,8 +19,9 @@
 }
 
 .novel-cover {
-  width: 60px;
-  min-height: 85px;
+  width: 100px;
+  /* min-height: 85px; */
+  height: 160px;
   object-fit: cover;
   border-radius: 4px;
   flex-shrink: 0;

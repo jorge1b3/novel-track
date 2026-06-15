@@ -31,6 +31,8 @@ const chaptersText = currentCh < totalCh
 
 tR += `---
 fileClass: novel
+cssclasses:
+  - novel-page
 tags:
   - novel
 aliases:
@@ -51,7 +53,14 @@ description: ${yamlStr(description)}
 
 ${description}
 
-> **Author:** ${author} · **${chaptersText}** · [Read Here](${sourceUrl})
+> **Author:** ${author} · [Read Here](${sourceUrl})
+
+| | |
+| --- | --- |
+| **Status** | \`INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]\` |
+| **Rating** | \`INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]\` |
+| **Progress** | \`INPUT[number:current-chapter]\` / \`INPUT[number:total-chapters]\` ch |
+| **Genres** | \`=this.file.tags\` |
 
 ---
 

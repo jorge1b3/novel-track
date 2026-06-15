@@ -26,9 +26,9 @@ function resolveCover(novelPath) {
 }
 
 for (const n of novels) {
-  const cc = n["current-chapter"] || 0;
-  const tc = n["total-chapters"] || 0;
-  const pct = tc > 0 ? Math.round(cc / tc * 100) : 0;
+  let currentCc = n["current-chapter"] || 0;
+  let currentTc = n["total-chapters"] || 0;
+  const pct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
 
   const card = dv.container.createEl("div", { attr: { class: "novel-card" } });
   const displayTitle = n.aliases && n.aliases.length > 0 ? n.aliases[0] : n.file.name;
@@ -55,7 +55,7 @@ for (const n of novels) {
   const titleRow = info.createEl("div", { attr: { style: "display:flex;align-items:center;gap:8px;flex-wrap:wrap;" } });
   titleRow.createEl("a", { text: displayTitle, attr: { href: n.file.path, class: "internal-link novel-title" } });
 
-  if (cc >= tc && tc > 0) {
+  if (currentCc >= currentTc && currentTc > 0) {
     titleRow.createEl("span", { text: "✓", attr: { style: "font-size:0.85em;color:var(--color-green);font-weight:700;" } });
   }
 
@@ -73,14 +73,16 @@ for (const n of novels) {
 
   // Progress bar
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${cc}/${tc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: `${currentCc}/${currentTc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
 
-  const updateBar = (newCc) => {
-    const newPct = tc > 0 ? Math.round(newCc / tc * 100) : 0;
-    chLabel.textContent = `${newCc}/${tc}`;
+  const updateBar = (newCc, newTc) => {
+    currentCc = newCc;
+    currentTc = newTc;
+    const newPct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
+    chLabel.textContent = `${currentCc}/${currentTc}`;
     fill.style.width = `${newPct}%`;
     pctLabel.textContent = `${newPct}%`;
   };
@@ -97,23 +99,28 @@ for (const n of novels) {
   const decBtn = btnRow.createEl("button", { text: "−", attr: { class: "novel-btn" } });
   decBtn.addEventListener("click", async () => {
     const file = app.vault.getAbstractFileByPath(n.file.path);
+    const updatedCc = Math.max(0, currentCc - 1);
     await app.fileManager.processFrontMatter(file, fm => {
-      fm["current-chapter"] = Math.max(0, (fm["current-chapter"] || 0) - 1);
+      fm["current-chapter"] = updatedCc;
     });
-    updateBar(n["current-chapter"] - 1);
+    updateBar(updatedCc, currentTc);
   });
 
   const incBtn = btnRow.createEl("button", { text: "+", attr: { class: "novel-btn" } });
   incBtn.addEventListener("click", async () => {
     const file = app.vault.getAbstractFileByPath(n.file.path);
+    const updatedCc = currentCc + 1;
+    let updatedTc = currentTc;
+    if (currentCc >= currentTc) {
+      updatedTc = currentTc + 1;
+    }
     await app.fileManager.processFrontMatter(file, fm => {
-      const cc = fm["current-chapter"] || 0;
-      fm["current-chapter"] = cc + 1;
-      if (cc >= (fm["total-chapters"] || 0)) {
-        fm["total-chapters"] = (fm["total-chapters"] || 0) + 1;
+      fm["current-chapter"] = updatedCc;
+      if (currentCc >= (fm["total-chapters"] || 0)) {
+        fm["total-chapters"] = updatedTc;
       }
     });
-    updateBar(n["current-chapter"] + 1);
+    updateBar(updatedCc, updatedTc);
   });
 
   if (n["source-url"]) {
@@ -142,9 +149,9 @@ function resolveCover(novelPath) {
 }
 
 for (const n of novels) {
-  const cc = n["current-chapter"] || 0;
-  const tc = n["total-chapters"] || 0;
-  const pct = tc > 0 ? Math.round(cc / tc * 100) : 0;
+  let currentCc = n["current-chapter"] || 0;
+  let currentTc = n["total-chapters"] || 0;
+  const pct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
 
   const card = dv.container.createEl("div", { attr: { class: "novel-card" } });
   const displayTitle = n.aliases && n.aliases.length > 0 ? n.aliases[0] : n.file.name;
@@ -168,7 +175,7 @@ for (const n of novels) {
   const titleRow = info.createEl("div", { attr: { style: "display:flex;align-items:center;gap:8px;flex-wrap:wrap;" } });
   titleRow.createEl("a", { text: displayTitle, attr: { href: n.file.path, class: "internal-link novel-title" } });
 
-  if (cc >= tc && tc > 0) {
+  if (currentCc >= currentTc && currentTc > 0) {
     titleRow.createEl("span", { text: "✓", attr: { style: "font-size:0.85em;color:var(--color-green);font-weight:700;" } });
   }
 
@@ -184,14 +191,16 @@ for (const n of novels) {
   info.createEl("div", { text: meta.join(" · "), attr: { class: "novel-meta" } });
 
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${cc}/${tc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: `${currentCc}/${currentTc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
 
-  const updateBar = (newCc) => {
-    const newPct = tc > 0 ? Math.round(newCc / tc * 100) : 0;
-    chLabel.textContent = `${newCc}/${tc}`;
+  const updateBar = (newCc, newTc) => {
+    currentCc = newCc;
+    currentTc = newTc;
+    const newPct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
+    chLabel.textContent = `${currentCc}/${currentTc}`;
     fill.style.width = `${newPct}%`;
     pctLabel.textContent = `${newPct}%`;
   };
@@ -207,23 +216,28 @@ for (const n of novels) {
   const decBtn = btnRow.createEl("button", { text: "−", attr: { class: "novel-btn" } });
   decBtn.addEventListener("click", async () => {
     const file = app.vault.getAbstractFileByPath(n.file.path);
+    const updatedCc = Math.max(0, currentCc - 1);
     await app.fileManager.processFrontMatter(file, fm => {
-      fm["current-chapter"] = Math.max(0, (fm["current-chapter"] || 0) - 1);
+      fm["current-chapter"] = updatedCc;
     });
-    updateBar(n["current-chapter"] - 1);
+    updateBar(updatedCc, currentTc);
   });
 
   const incBtn = btnRow.createEl("button", { text: "+", attr: { class: "novel-btn" } });
   incBtn.addEventListener("click", async () => {
     const file = app.vault.getAbstractFileByPath(n.file.path);
+    const updatedCc = currentCc + 1;
+    let updatedTc = currentTc;
+    if (currentCc >= currentTc) {
+      updatedTc = currentTc + 1;
+    }
     await app.fileManager.processFrontMatter(file, fm => {
-      const cc = fm["current-chapter"] || 0;
-      fm["current-chapter"] = cc + 1;
-      if (cc >= (fm["total-chapters"] || 0)) {
-        fm["total-chapters"] = (fm["total-chapters"] || 0) + 1;
+      fm["current-chapter"] = updatedCc;
+      if (currentCc >= (fm["total-chapters"] || 0)) {
+        fm["total-chapters"] = updatedTc;
       }
     });
-    updateBar(n["current-chapter"] + 1);
+    updateBar(updatedCc, updatedTc);
   });
 
   if (n["source-url"]) {
