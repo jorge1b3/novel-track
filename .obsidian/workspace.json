@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4f15510a08c39de2",
+        "id": "62ad2376ca410ec8",
         "type": "tabs",
         "children": [
           {
-            "id": "4caf782c7ca800e3",
+            "id": "07323ff3e94a1eaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
-                "mode": "preview",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Turns_Out_Im_In_A_Villain_Clan"
+              "title": "000 Novel Dashboard"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Turns_Out_Im_In_A_Villain_Clan"
+              "title": "Backlinks for 000 Novel Dashboard"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Turns_Out_Im_In_A_Villain_Clan"
+              "title": "Outgoing links from 000 Novel Dashboard"
             }
           },
           {
@@ -127,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Turns_Out_Im_In_A_Villain_Clan"
+              "title": "Outline of 000 Novel Dashboard"
             }
           },
           {
@@ -142,7 +142,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md"
+                "file": "Novel Tracker/000 Novel Dashboard.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -178,14 +178,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Turns_Out_Im_In_A_Villain_Clan.md"
+                "file": "Novel Tracker/000 Novel Dashboard.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Turns_Out_Im_In_A_Villain_Clan"
+              "title": "File properties for 000 Novel Dashboard"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,10 +203,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4caf782c7ca800e3",
+  "active": "07323ff3e94a1eaf",
   "lastOpenFiles": [
-    "Novel Tracker/000 Novel Dashboard.md",
     "Turns_Out_Im_In_A_Villain_Clan.md",
+    "Novel Tracker/000 Novel Dashboard.md",
     "_metadata/novel.md",
     "How_to_get_Healed_at_Demon_Farm.md",
     "Zero_no_Tsukaima.md",
