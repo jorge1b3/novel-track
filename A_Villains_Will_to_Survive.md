@@ -1,0 +1,39 @@
+---
+tags:
+  - novel
+  - Action
+  - Comedy
+  - Drama
+  - Fantasy
+  - Harem
+  - Psychological
+  - Romance
+  - School_Life
+  - Shounen
+fileClass: novel
+aliases:
+  - 'A Villain''s Will to Survive'
+status: Completed
+author: 'Jee Gab Song'
+source-url: 'https://www.novelupdates.com/series/a-villains-will-to-survive/'
+total-chapters: 361
+current-chapter: 361
+rating: 
+description: 'The middle boss of the AAA-class game produced by the company. The villain who dies 999 times out of 1,000 times. Deculein. That person, was me now. “You’re going to die on almost every route.” Dyein, like all villains, inevitably dies. [First and foremost survival goal: Be what the game requires you to be] I’ll have to survive even if it means twisting my fate if I am destined to die.'
+genre: []
+---
+
+# A Villain's Will to Survive
+
+![[covers/A_Villains_Will_to_Survive.webp|100|left]]
+
+> [Read Here](https://www.novelupdates.com/series/a-villains-will-to-survive/)
+
+_NU: my chapter `c361`, latest `c20`_
+
+---
+
+## Chapter Log
+
+### Read
+- [x] Chapters 1-?

@@ -1,0 +1,41 @@
+---
+tags:
+  - novel
+  - Action
+  - Adventure
+  - Comedy
+  - Fantasy
+  - Gender_Bender
+  - Martial_Arts
+  - School_Life
+  - Yuri
+fileClass: novel
+aliases:
+  - 'I Became the Academy''s Pink Airhead'
+status: Plan-to-Read
+author: '국문파랑'
+source-url: 'https://www.novelupdates.com/series/i-became-the-academys-pink-airhead/'
+total-chapters: 131
+current-chapter: 1
+rating: 
+description: 'A city of academies where high school girls converse with swords and spears in hand. A comedy character who loves macarons and a cup of tea. Becoming a pink-haired dummy in a mobile game, acting as the weakest character with the pretty filter in my mouth and body. Yet in my heart, a man’s fighting spirit still boils like lava. “What a cutie. Ohoho☆”'
+genre: []
+---
+
+# I Became the Academy's Pink Airhead
+
+![[covers/I_Became_the_Academys_Pink_Airhead.webp|100|left]]
+
+> [Read Here](https://www.novelupdates.com/series/i-became-the-academys-pink-airhead/)
+
+_NU: my chapter `c1`, latest `c131`_
+
+---
+
+## Chapter Log
+
+### Read
+- [x] Chapters 1-1
+
+### Unread
+- [ ] Chapters 2-131

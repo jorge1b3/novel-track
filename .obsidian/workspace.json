@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "61d3c457cb722f51",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f15510a08c39de2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4caf782c7ca800e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Turns_Out_Im_In_A_Villain_Clan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b5551134ece5ba4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab82913bf991223a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fdaf65e379235a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2ccbb736f311562e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Comedy",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "afbbc4bd392bee31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3d83993a34d5252",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dc41e898355da8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96737007ad337dd6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Turns_Out_Im_In_A_Villain_Clan"
+            }
+          },
+          {
+            "id": "831400e9acb12bf6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Turns_Out_Im_In_A_Villain_Clan"
+            }
+          },
+          {
+            "id": "8af441b31caf5a02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Turns_Out_Im_In_A_Villain_Clan"
+            }
+          },
+          {
+            "id": "eaaba40e2ea49ade",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "b7e15f848b5f2ef3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "73cb940dc285a2a2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "18bc74abefc985f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Turns_Out_Im_In_A_Villain_Clan.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Turns_Out_Im_In_A_Villain_Clan"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "4caf782c7ca800e3",
+  "lastOpenFiles": [
+    "Novel Tracker/000 Novel Dashboard.md",
+    "Turns_Out_Im_In_A_Villain_Clan.md",
+    "_metadata/novel.md",
+    "How_to_get_Healed_at_Demon_Farm.md",
+    "Zero_no_Tsukaima.md",
+    "What_a_Bountiful_Harvest_Demon_Lord.md",
+    "Untitled.base",
+    "Untitled.canvas",
+    "Turns_Out_Im_the_Villain_Theyre_Supposed_to_Redeem_Quick_Transmigration.md",
+    "This_Hero_Is_Invincible_but_Too_Cautious.md",
+    "The_Tutorial_Is_Too_Hard.md",
+    "The_Villainous_Daughters_Butler_I_Raised_Her_to_be_Very_Cute.md",
+    "The_World_After_the_Fall.md",
+    "The_Reincarnated_Assassin_is_a_Genius_Swordsman.md",
+    "The_Legendary_Moonlight_Sculptor.md",
+    "The_Extras_Academy_Survival_Guide.md",
+    "The_Executed_Sage_Reincarnates_as_a_Lich_and_Begins_a_War_of_Aggression.md",
+    "Tash_of_the_Counts_Family.md",
+    "Star_Instructor_Master_Baek.md",
+    "Thats_Not_How_You_Use_Martial_Arts.md",
+    "Reformation_of_the_Deadbeat_Noble.md",
+    "SSSClass_Suide_Hunter.md",
+    "Seoul_Stations_Necromancer.md",
+    "Quick_Transmigration_Cannon_Fodders_Record_of_Counterattacks.md",
+    "Rankers_Return.md",
+    "Overgeared.md",
+    "Please_Dont_Come_To_The_Villainess_Stationery_Store.md",
+    "Omniscient_Readers_Viewpoint.md",
+    "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg",
+    "covers/A_Wild_Man_Has_Entered_the_Academy.webp",
+    "main/search.base",
+    "main",
+    "covers/Live_Stream_I_Am_A_Lord_In_Another_World.webp",
+    "covers/Zero_no_Tsukaima.webp",
+    "covers/What_a_Bountiful_Harvest_Demon_Lord.webp",
+    "covers/Turns_Out_Im_the_Villain_Theyre_Supposed_to_Redeem_Quick_Transmigration.webp",
+    "covers/Turns_Out_Im_In_A_Villain_Clan.webp",
+    "covers/SSSClass_Suide_Hunter.webp",
+    "covers/Im_the_Only_One_With_a_Different_Genre.webp",
+    "covers/Evolution_Theory_of_the_Hunter.webp",
+    "json/dropped.json",
+    "json/deseos.json",
+    "json/finish.json",
+    "main.py",
+    "nu-reading-list.json",
+    "json/nu-reading-list.json",
+    "json"
+  ]
+}

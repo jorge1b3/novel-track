@@ -1,0 +1,21 @@
+{
+  "templater-obsidian:create-Novel Tracker/Templates/Novel Template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:Novel Tracker/Templates/Novel Template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ]
+}

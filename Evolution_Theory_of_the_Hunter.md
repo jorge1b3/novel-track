@@ -1,0 +1,43 @@
+---
+tags:
+  - novel
+  - Action
+  - Adventure
+  - Drama
+  - Fantasy
+  - Harem
+  - Mystery
+  - Psychological
+  - Romance
+  - Seinen
+  - Supernatural
+fileClass: novel
+aliases:
+  - 'Evolution Theory of the Hunter'
+status: Plan-to-Read
+author: '음란파괴왕'
+source-url: 'https://www.novelupdates.com/series/evolution-theory-of-the-hunter/'
+total-chapters: 201
+current-chapter: 99
+rating: 
+description: 'In a world of dungeons and monsters you can become strong if you merely have enough money. Rare skillbooks that can magically upgrade your skills in an instant are sold at exorbitant prices. So only the privileged and rich are able to buy their way to become hunters – a much revered occupation that allows one to enter dungeons and hunt monsters. Our MC is a porter, a sort of caddie for hunters. He dreams of one day becoming a hunter when he comes into possession of a skillbook. But the skill is a level 0. Something unheard of. No one wants it. People laugh at it. But he learns the skill – only to find that it may be the most amazing one yet.'
+genre: []
+---
+
+# Evolution Theory of the Hunter
+
+![[covers/Evolution_Theory_of_the_Hunter.webp|100|left]]
+
+> [Read Here](https://www.novelupdates.com/series/evolution-theory-of-the-hunter/)
+
+_NU: my chapter `c99`, latest `c201`_
+
+---
+
+## Chapter Log
+
+### Read
+- [x] Chapters 1-99
+
+### Unread
+- [ ] Chapters 100-201

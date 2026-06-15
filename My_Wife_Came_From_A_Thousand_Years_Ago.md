@@ -1,0 +1,39 @@
+---
+tags:
+  - novel
+  - Comedy
+  - Drama
+  - Martial_Arts
+  - Mature
+  - Romance
+  - Slice_of_Life
+fileClass: novel
+aliases:
+  - 'My Wife Came From A Thousand Years Ago'
+status: Plan-to-Read
+author: '花还没开'
+source-url: 'https://www.novelupdates.com/series/my-wife-came-from-a-thousand-years-ago/'
+total-chapters: 201
+current-chapter: 1
+rating: 
+description: '“I want to go home.” “You may not be able to go back.” “Why?” “Because it’s a long way to your house.” “How far is it?” “About twelve hundred years away,” Xu Qing directed a sympathetic gaze towards the young girl who hailed from the Tang Dynasty, “Everything you knew has become history.” Family, friends, and enemies— all silenced twelve hundred years ago…'
+genre: []
+---
+
+# My Wife Came From A Thousand Years Ago
+
+![[covers/My_Wife_Came_From_A_Thousand_Years_Ago.webp|100|left]]
+
+> [Read Here](https://www.novelupdates.com/series/my-wife-came-from-a-thousand-years-ago/)
+
+_NU: my chapter `c1`, latest `c201`_
+
+---
+
+## Chapter Log
+
+### Read
+- [x] Chapters 1-1
+
+### Unread
+- [ ] Chapters 2-201
