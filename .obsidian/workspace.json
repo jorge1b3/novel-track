@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Novel Tracker/000 Novel Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,23 +173,23 @@
   },
   "active": "6e52d48842b7b03c",
   "lastOpenFiles": [
+    "The_Editor_Is_the_Novels_Extra.md",
+    "Novel Tracker/000 Novel Dashboard.md",
+    "covers/${slug}.webp.md",
+    "Turns_Out_Im_In_A_Villain_Clan.md",
     "Untitled.md",
     "Untitled.base",
-    "Novel Tracker/000 Novel Dashboard.md",
     "_metadata/novel.md",
     "Untitled 1.base",
     "The_Extras_Academy_Survival_Guide.md",
     "Academys_Genius_Swordsman.md",
-    "Turns_Out_Im_In_A_Villain_Clan.md",
     "My_Wife_Came_From_A_Thousand_Years_Ago.md",
     "main/search.base",
     "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
     "A_Villains_Will_to_Survive.md",
-    "covers/${slug}.webp.md",
     "The_World_After_the_Bad_Ending.md",
     "The_Extra_Refuses_Excessive_Obsession.md",
     "The_Greatest_Estate_Designer.md",
-    "The_Editor_Is_the_Novels_Extra.md",
     "A_Player_Who_Eats_Metal.md",
     "A_Wild_Man_Has_Entered_the_Academy.md",
     "MMORPG_Martial_Gamer.md",

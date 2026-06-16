@@ -1,6 +1,13 @@
 {
   "enabledCssSnippets": [
     "novel-page",
-    "novel-dashboard"
-  ]
+    "novel-dashboard",
+    "floating-status-bar",
+    "floating-search-bar",
+    "extended-colorschemes",
+    "custom-background",
+    "its-frontmatter",
+    "minimal-cards"
+  ],
+  "cssTheme": "AnuPpuccin"
 }
