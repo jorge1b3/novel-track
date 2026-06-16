@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "71ddfc9c48724f47",
+        "id": "a3a00e05959ea039",
         "type": "tabs",
         "children": [
           {
-            "id": "9e871973414123c6",
+            "id": "fad3e8758b10bc4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Novel Tracker/000 Novel Dashboard.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "000 Novel Dashboard"
@@ -89,39 +89,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "96737007ad337dd6",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for 000 Novel Dashboard"
-            }
-          },
-          {
-            "id": "831400e9acb12bf6",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from 000 Novel Dashboard"
-            }
-          },
-          {
             "id": "8af441b31caf5a02",
             "type": "leaf",
             "state": {
@@ -185,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -205,10 +172,18 @@
   },
   "active": "73cb940dc285a2a2",
   "lastOpenFiles": [
+    "main/search.base",
+    "Novel Tracker/000 Novel Dashboard.md",
+    "_metadata/novel.md",
+    "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
+    "A_Villains_Will_to_Survive.md",
+    "covers/${slug}.webp.md",
+    "The_World_After_the_Bad_Ending.md",
+    "The_Extra_Refuses_Excessive_Obsession.md",
+    "The_Greatest_Estate_Designer.md",
+    "The_Editor_Is_the_Novels_Extra.md",
     "A_Player_Who_Eats_Metal.md",
     "A_Wild_Man_Has_Entered_the_Academy.md",
-    "Novel Tracker/000 Novel Dashboard.md",
-    "A_Villains_Will_to_Survive.md",
     "MMORPG_Martial_Gamer.md",
     "Academy_Heroines_Right_Diagonal_Back_Seat.md",
     "This_Hero_Is_Invincible_but_Too_Cautious.md",
@@ -223,14 +198,6 @@
     "Surviving_as_a_Genius_on_Borrowed_Time.md",
     "SSSClass_Suide_Hunter.md",
     "Level_99_Villainous_Daughter.md",
-    "Raising_the_Northern_Grand_Duchy_as_a_MaxLevel_AllMaster.md",
-    "Ascension_Through_Skills.md",
-    "I_Killed_the_Player_of_the_Academy.md",
-    "The_Reincarnated_Assassin_is_a_Genius_Swordsman.md",
-    "Surviving_as_a_Mage_in_a_Magic_Academy.md",
-    "The_Main_Heroines_are_Trying_to_Kill_Me.md",
-    "I_Became_a_Servant_The_Dragons_Obsessed_With.md",
-    "Martial_Arts_Aint_That_Big_of_a_Deal.md",
     "Novel Tracker/__pycache__/import-nu.cpython-314.pyc",
     "Novel Tracker/__pycache__",
     "__pycache__/main.cpython-314.pyc",
@@ -239,7 +206,6 @@
     "Untitled.canvas",
     "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg",
     "covers/A_Wild_Man_Has_Entered_the_Academy.webp",
-    "main/search.base",
     "main",
     "covers/Live_Stream_I_Am_A_Lord_In_Another_World.webp",
     "covers/Zero_no_Tsukaima.webp",
