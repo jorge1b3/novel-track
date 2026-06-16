@@ -9,5 +9,8 @@
     "its-frontmatter",
     "minimal-cards"
   ],
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "theme": "system",
+  "showViewHeader": false,
+  "showRibbon": true
 }

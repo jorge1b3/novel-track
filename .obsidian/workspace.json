@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "file": "A_Villains_Will_to_Survive.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000 Novel Dashboard"
+              "title": "A_Villains_Will_to_Survive"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d3d83993a34d5252",
@@ -95,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "file": "A_Villains_Will_to_Survive.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 000 Novel Dashboard"
+              "title": "Outline of A_Villains_Will_to_Survive"
             }
           },
           {
@@ -110,7 +111,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md"
+                "file": "A_Villains_Will_to_Survive.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -146,10 +147,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md"
+                "file": "A_Villains_Will_to_Survive.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 000 Novel Dashboard"
+              "title": "File properties for A_Villains_Will_to_Survive"
             }
           }
         ],
@@ -173,8 +174,8 @@
   },
   "active": "6e52d48842b7b03c",
   "lastOpenFiles": [
-    "The_Editor_Is_the_Novels_Extra.md",
     "Novel Tracker/000 Novel Dashboard.md",
+    "The_Editor_Is_the_Novels_Extra.md",
     "covers/${slug}.webp.md",
     "Turns_Out_Im_In_A_Villain_Clan.md",
     "Untitled.md",
