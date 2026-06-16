@@ -5,10 +5,30 @@ const sourceUrl = await tp.system.prompt("Source URL");
 const totalCh = parseInt(await tp.system.prompt("Total chapters released") || 0);
 const currentCh = parseInt(await tp.system.prompt("Last read chapter number") || 0);
 const description = await tp.system.prompt("Short description (optional)") || "";
+const coverUrl = await tp.system.prompt("Novel cover URL (optional)") || "";
 
 // Sanitize filename: only a-zA-Z, spaces → _
 const slug = displayTitle.replace(/[^a-zA-Z0-9 ]/g, '').replace(/ /g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
 if (slug) await tp.file.rename(slug);
+
+if (coverUrl && coverUrl.trim() !== "") {
+  const vaultPath = app.vault.adapter.getBasePath();
+  const scriptPath = vaultPath + "/Novel Tracker/download_cover.py";
+  const safeUrl = coverUrl.replace(/"/g, '\\"');
+  const safeTitle = displayTitle.replace(/"/g, '\\"');
+  
+  const cp = (typeof require !== 'undefined') ? require('child_process') : window.require('child_process');
+  await new Promise((resolve) => {
+    cp.exec(`python3 "${scriptPath}" "${safeUrl}" "${safeTitle}"`, (error, stdout, stderr) => {
+      if (error) {
+        console.error("Cover download error:", error, stderr);
+      } else {
+        console.log("Cover download output:", stdout);
+      }
+      resolve();
+    });
+  });
+}
 
 function yamlStr(s) {
   if (!s || s.trim() === "") return "";

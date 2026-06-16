@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "file": "Horror_Game_Developer_My_games_arent_that_scary.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000 Novel Dashboard"
+              "title": "Horror_Game_Developer_My_games_arent_that_scary"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Horror",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -95,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "file": "Horror_Game_Developer_My_games_arent_that_scary.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 000 Novel Dashboard"
+              "title": "Outline of Horror_Game_Developer_My_games_arent_that_scary"
             }
           },
           {
@@ -110,7 +111,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md"
+                "file": "Horror_Game_Developer_My_games_arent_that_scary.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -146,10 +147,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md"
+                "file": "Horror_Game_Developer_My_games_arent_that_scary.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 000 Novel Dashboard"
+              "title": "File properties for Horror_Game_Developer_My_games_arent_that_scary"
             }
           }
         ],
@@ -173,12 +174,21 @@
   },
   "active": "bb14f2b81b079e2e",
   "lastOpenFiles": [
-    "A_Villains_Will_to_Survive.md",
+    "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
+    "Horror_Game_Developer_My_games_arent_that_scary.md",
     "Novel Tracker/000 Novel Dashboard.md",
+    "Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.md",
+    "covers/Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.webp",
+    "covers/temp_Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.jpg",
+    "covers/Horror_Game_Developer_My_games_arent_that_scary.webp",
+    "covers/temp_Horror_Game_Developer_My_games_arent_that_scary.jpg",
+    "covers/Test_Novel.webp",
+    "covers/temp_Test_Novel.jpg",
+    "Novel Tracker/download_cover.py",
+    "A_Villains_Will_to_Survive.md",
     "The_Editor_Is_the_Novels_Extra.md",
     "covers/${slug}.webp.md",
     "Turns_Out_Im_In_A_Villain_Clan.md",
-    "Untitled.md",
     "Untitled.base",
     "_metadata/novel.md",
     "Untitled 1.base",
@@ -186,7 +196,6 @@
     "Academys_Genius_Swordsman.md",
     "My_Wife_Came_From_A_Thousand_Years_Ago.md",
     "main/search.base",
-    "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
     "The_World_After_the_Bad_Ending.md",
     "The_Extra_Refuses_Excessive_Obsession.md",
     "The_Greatest_Estate_Designer.md",
@@ -199,8 +208,6 @@
     "I_Became_A_Flashing_Genius_At_The_Magic_Academy.md",
     "Star_Instructor_Master_Baek.md",
     "I_Am_the_Fated_Villain.md",
-    "Academys_Undercover_Professor.md",
-    "Im_the_Evil_Lord_of_an_Intergalactic_Empire.md",
     "Novel Tracker/__pycache__/import-nu.cpython-314.pyc",
     "Novel Tracker/__pycache__",
     "__pycache__/main.cpython-314.pyc",
@@ -211,13 +218,6 @@
     "main",
     "covers/Live_Stream_I_Am_A_Lord_In_Another_World.webp",
     "covers/Zero_no_Tsukaima.webp",
-    "covers/What_a_Bountiful_Harvest_Demon_Lord.webp",
-    "covers/Turns_Out_Im_the_Villain_Theyre_Supposed_to_Redeem_Quick_Transmigration.webp",
-    "covers/Turns_Out_Im_In_A_Villain_Clan.webp",
-    "covers/SSSClass_Suide_Hunter.webp",
-    "covers/Im_the_Only_One_With_a_Different_Genre.webp",
-    "covers/Evolution_Theory_of_the_Hunter.webp",
-    "json/dropped.json",
-    "json/deseos.json"
+    "json/dropped.json"
   ]
 }

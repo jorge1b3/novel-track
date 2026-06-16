@@ -11,6 +11,6 @@
   ],
   "cssTheme": "AnuPpuccin",
   "theme": "system",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "showRibbon": true
 }
