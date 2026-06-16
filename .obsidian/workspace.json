@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md",
+                "file": "The_Extras_Academy_Survival_Guide.md",
                 "mode": "preview",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "000 Novel Dashboard"
+              "title": "The_Extras_Academy_Survival_Guide"
             }
           }
         ]
@@ -162,21 +163,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "bb14f2b81b079e2e",
   "lastOpenFiles": [
+    "Novel Tracker/000 Novel Dashboard.md",
     "Horror_Game_Developer_My_games_arent_that_scary.md",
     "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
-    "Novel Tracker/000 Novel Dashboard.md",
     "Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.md",
     "covers/Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.webp",
     "covers/temp_Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.jpg",
