@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Horror_Game_Developer_My_games_arent_that_scary.md",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Horror_Game_Developer_My_games_arent_that_scary"
+              "title": "000 Novel Dashboard"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Horror_Game_Developer_My_games_arent_that_scary.md",
+                "file": "Novel Tracker/000 Novel Dashboard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Horror_Game_Developer_My_games_arent_that_scary"
+              "title": "Outline of 000 Novel Dashboard"
             }
           },
           {
@@ -111,7 +110,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Horror_Game_Developer_My_games_arent_that_scary.md"
+                "file": "Novel Tracker/000 Novel Dashboard.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -147,10 +146,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Horror_Game_Developer_My_games_arent_that_scary.md"
+                "file": "Novel Tracker/000 Novel Dashboard.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Horror_Game_Developer_My_games_arent_that_scary"
+              "title": "File properties for 000 Novel Dashboard"
             }
           }
         ],
@@ -158,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,8 +174,8 @@
   },
   "active": "bb14f2b81b079e2e",
   "lastOpenFiles": [
-    "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
     "Horror_Game_Developer_My_games_arent_that_scary.md",
+    "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
     "Novel Tracker/000 Novel Dashboard.md",
     "Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.md",
     "covers/Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.webp",
