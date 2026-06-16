@@ -157,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,8 +169,8 @@
   },
   "active": "bb14f2b81b079e2e",
   "lastOpenFiles": [
-    "The_Extras_Academy_Survival_Guide.md",
     "Novel Tracker/000 Novel Dashboard.md",
+    "The_Extras_Academy_Survival_Guide.md",
     "Horror_Game_Developer_My_games_arent_that_scary.md",
     "Got_Dropped_into_a_Ghost_Story_Still_Gotta_Work.md",
     "Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.md",
