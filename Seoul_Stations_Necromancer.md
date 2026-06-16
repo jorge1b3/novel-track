@@ -11,14 +11,14 @@ tags:
   - Supernatural
 fileClass: novel
 aliases:
-  - 'Seoul Station''s Necromancer'
+  - Seoul Station's Necromancer
 status: Completed
-author: 'Jin Seolwoo'
-source-url: 'https://www.novelupdates.com/series/seoul-stations-necromancer/'
+author: Jin Seolwoo
+source-url: https://www.novelupdates.com/series/seoul-stations-necromancer/
 total-chapters: 208
 current-chapter: 208
-rating: 4
-description: '[You have entered the dungeon at Gwachun Station’s 1st Exit.] When former high school student Kang Woojin finds himself returned back to Earth after being forcibly summoned to a foreign planet for 20 years, he soon finds that Earth is not the same, normal place as he once remembered it to be. With his former strength and age reset back to zero, watch Kang Woojin as he gets back on the path to becoming the Earth’s strongest Necromancer!'
+rating: 3
+description: "[You have entered the dungeon at Gwachun Station’s 1st Exit.] When former high school student Kang Woojin finds himself returned back to Earth after being forcibly summoned to a foreign planet for 20 years, he soon finds that Earth is not the same, normal place as he once remembered it to be. With his former strength and age reset back to zero, watch Kang Woojin as he gets back on the path to becoming the Earth’s strongest Necromancer!"
 genre: []
 cssclasses:
   - novel-page

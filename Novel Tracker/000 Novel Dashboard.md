@@ -13,7 +13,7 @@ tags:
 ```dataviewjs
 const novels = dv.pages('#novel')
   .where(p => p.status === "Reading" && p["current-chapter"])
-  .sort(p => p.file.mtime, 'desc');
+  .sort(p => p.file.name, 'asc');
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -136,7 +136,7 @@ for (const n of novels) {
 ```dataviewjs
 const novels = dv.pages('#novel')
   .where(p => p.status === "On-Hold")
-  .sort(p => p.file.mtime, 'desc');
+  .sort(p => p.file.name, 'asc');
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -253,7 +253,7 @@ for (const n of novels) {
 ```dataviewjs
 const novels = dv.pages('#novel')
   .where(p => p.status === "Plan-to-Read")
-  .sort(p => p.file.mtime, 'desc');
+  .sort(p => p.file.name, 'asc');
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -347,7 +347,7 @@ for (const n of novels) {
 ```dataviewjs
 const novels = dv.pages('#novel')
   .where(p => p.status === "Completed")
-  .sort(p => p.rating, 'desc');
+  .sort(p => p.file.name, 'asc');
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -426,7 +426,7 @@ for (const n of novels) {
 ```dataviewjs
 const novels = dv.pages('#novel')
   .where(p => p.status === "Dropped")
-  .sort(p => p.file.mtime, 'desc');
+  .sort(p => p.file.name, 'asc');
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');

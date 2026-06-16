@@ -11,14 +11,14 @@ tags:
   - Xianxia
 fileClass: novel
 aliases:
-  - 'My Disciple Died Yet Again'
+  - My Disciple Died Yet Again
 status: Completed
-author: 'Mrs. Ago'
-source-url: 'https://www.novelupdates.com/series/my-disciple-died-yet-again/'
+author: Mrs. Ago
+source-url: https://www.novelupdates.com/series/my-disciple-died-yet-again/
 total-chapters: 393
 current-chapter: 393
-rating: 4
-description: 'Game designer Zhu Yao accidentally gets transmigrated into a new xianxia VR game that is currently in development. There she becomes the disciple of the most beautiful male immortal Yu Yan who had to wait 16 thousand years before finally getting a disciple of his own. Yu Yan carefully teaches Zhu Yao and cherishes her a lot. But when Zhu Yao finally begins to understand some of his teachings, she suddenly dies. Yu Yan then gets a new disciple, the reborn Zhu Yao, and she dies again. He then gets another disciple, and she dies once again…'
+rating: 5
+description: Game designer Zhu Yao accidentally gets transmigrated into a new xianxia VR game that is currently in development. There she becomes the disciple of the most beautiful male immortal Yu Yan who had to wait 16 thousand years before finally getting a disciple of his own. Yu Yan carefully teaches Zhu Yao and cherishes her a lot. But when Zhu Yao finally begins to understand some of his teachings, she suddenly dies. Yu Yan then gets a new disciple, the reborn Zhu Yao, and she dies again. He then gets another disciple, and she dies once again…
 genre: []
 cssclasses:
   - novel-page
