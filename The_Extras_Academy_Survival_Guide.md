@@ -12,12 +12,12 @@ tags:
 fileClass: novel
 aliases:
   - The Extra's Academy Survival Guide
-status: Reading
+status: Completed
 author: Korita
 source-url: https://www.novelupdates.com/series/the-extras-academy-survival-guide/
 total-chapters: 250
-current-chapter: 242
-rating: 4
+current-chapter: 250
+rating: 5
 description: I ended up transmigrating as a third-rate extra in a game I liked, but worst of all, this character had already fallen and been disowned. I have no ambitions. I just want to graduate, but the world won’t let me.
 genre: []
 cssclasses:
