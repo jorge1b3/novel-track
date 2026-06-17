@@ -15,7 +15,7 @@ aliases:
 status: Dropped
 author: Geul Jengi S
 source-url: https://www.novelupdates.com/series/the-demon-prince-goes-to-the-academy/
-total-chapters: 637
+total-chapters: 703
 current-chapter: 637
 rating: 4
 description: "[The Demon King is Dead] is a story in which the Demon King was immediately killed off in the Prologue. And I became the ‘Demon Prince’ of said novel. …Help me."
