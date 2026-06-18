@@ -17,6 +17,8 @@ author: Entrail_JI
 source-url: https://novelfire.net/book/horror-game-developer-my-games-arent-that-scary
 total-chapters: 666
 current-chapter: 321
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: "[Desarrollador de juegos de terror: ¡Mis juegos no dan tanto miedo!]  Odio el terror.  Desde el sonido apresurado de pasos que corrían tras de mí, hasta los susurros suaves pero inquietantemente fríos que se enroscaban en mis oídos...  Todo.  Lo odio. "
 ---
@@ -34,14 +36,15 @@ description: "[Desarrollador de juegos de terror: ¡Mis juegos no dan tanto mied
 | **Status**   | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |     |
 | **Rating**   | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]`             |     |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch                                                      |     |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres**   | `=this.file.tags`                                                                                                        |     |
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-321
-
-### Unread
-- [ ] Chapters 322-666
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

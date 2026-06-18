@@ -14,6 +14,8 @@ author: Yuuki Karaku
 source-url: https://www.novelupdates.com/series/the-executed-sage-reincarnates-as-a-lich-and-begins-a-war-of-aggression/
 total-chapters: 288
 current-chapter: 1
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: Sage Dwight subjugated the Demon Lord along with the hero. They, who had returned peace to the world, were suspected of becoming the next Demon Lord and were pushed into the valley of the dead to die. Ten years later. Dwight quietly survived at the bottom of the ravine, becoming a skeleton that lost all its flesh. With deep remorse, he held the hero’s dead body and said to himself. “What’s wrong is the world. I have to prove it to them.” Having resolved himself, Dwight ate the Miasma of the valley of the dead. He became an existence that surpassed the previous Demon Lord and headed for the surface, leading countless undead with him. All for the sake of world peace. The King of the Undead, who received the strongest power, began an all-out war against humanity.
 genre: []
@@ -32,16 +34,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c1 part1`, latest `c288`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-1
-
-### Unread
-- [ ] Chapters 2-288
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

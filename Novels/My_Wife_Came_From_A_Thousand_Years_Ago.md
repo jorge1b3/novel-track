@@ -15,6 +15,8 @@ author: 花还没开
 source-url: https://www.novelupdates.com/series/my-wife-came-from-a-thousand-years-ago/
 total-chapters: 201
 current-chapter: 1
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: “I want to go home.” “You may not be able to go back.” “Why?” “Because it’s a long way to your house.” “How far is it?” “About twelve hundred years away,” Xu Qing directed a sympathetic gaze towards the young girl who hailed from the Tang Dynasty, “Everything you knew has become history.” Family, friends, and enemies— all silenced twelve hundred years ago…
 genre: []
@@ -33,16 +35,17 @@ cssclasses:
 | **Status**   | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating**   | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]`             |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch                                                      |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres**   | `=this.file.tags`                                                                                                        |
 
 _NU: my chapter `c1`, latest `c201`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-1
-
-### Unread
-- [ ] Chapters 2-201
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

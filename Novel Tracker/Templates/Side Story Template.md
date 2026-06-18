@@ -1,68 +1,49 @@
 <%*
-const displayTitle = await tp.system.prompt("Novel title");
+const displayTitle = await tp.system.prompt("Side Story title");
+const parentNovel = await tp.system.prompt("Parent Novel title or [[Link]]");
 const author = await tp.system.prompt("Author name");
 const sourceUrl = await tp.system.prompt("Source URL");
 const totalCh = parseInt(await tp.system.prompt("Total chapters released") || 0);
 const currentCh = parseInt(await tp.system.prompt("Last read chapter number") || 0);
 const description = await tp.system.prompt("Short description (optional)") || "";
-const coverUrl = await tp.system.prompt("Novel cover URL (optional)") || "";
 
 // Sanitize filename: only a-zA-Z, spaces → _
 const slug = displayTitle.replace(/[^a-zA-Z0-9 ]/g, '').replace(/ /g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
 if (slug) await tp.file.rename(slug);
-
-if (coverUrl && coverUrl.trim() !== "") {
-  const vaultPath = app.vault.adapter.getBasePath();
-  const scriptPath = vaultPath + "/Novel Tracker/download_cover.py";
-  const safeUrl = coverUrl.replace(/"/g, '\\"');
-  const safeTitle = displayTitle.replace(/"/g, '\\"');
-  
-  const cp = (typeof require !== 'undefined') ? require('child_process') : window.require('child_process');
-  await new Promise((resolve) => {
-    cp.exec(`python3 "${scriptPath}" "${safeUrl}" "${safeTitle}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error("Cover download error:", error, stderr);
-      } else {
-        console.log("Cover download output:", stdout);
-      }
-      resolve();
-    });
-  });
-}
 
 function yamlStr(s) {
   if (!s || s.trim() === "") return "";
   return "'" + s.replace(/'/g, "''") + "'";
 }
 
+let parentLink = parentNovel.trim();
+if (parentLink && !parentLink.startsWith("[[")) {
+  parentLink = "[[" + parentLink + "]]";
+}
+
 
 
 tR += `---
-fileClass: novel
+fileClass: side-story
 cssclasses:
   - novel-page
 tags:
-  - novel
+  - side-story
 aliases:
   - ${yamlStr(displayTitle)}
+parent: ${parentLink}
 status: Reading
-type: Web Novel
 author: ${yamlStr(author)}
 source-url: ${yamlStr(sourceUrl)}
 total-chapters: ${totalCh}
 current-chapter: ${currentCh}
-side-stories-total: 0
-side-stories-read: 0
 rating:
 description: ${yamlStr(description)}
 ---
 
 # ${displayTitle}
 
-![[covers/${slug}.webp|100|left]]
-
-${description}
-
+> **Parent Novel:** ${parentLink}
 > **Author:** ${author} · [Read Here](${sourceUrl})
 
 | | |
@@ -70,18 +51,6 @@ ${description}
 | **Status** | \`INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]\` |
 | **Rating** | \`INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]\` |
 | **Progress** | \`INPUT[number:current-chapter]\` / \`INPUT[number:total-chapters]\` ch |
-| **Side Stories** | \`INPUT[number:side-stories-read]\` / \`INPUT[number:side-stories-total]\` ch |
-| **Genres** | \`=this.file.tags\` |
-
----
-
-## Side Stories
-
-```dataview
-TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
-FROM #side-story
-WHERE parent = this.file.link
-```
 
 `;
 _%>

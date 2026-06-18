@@ -13,6 +13,8 @@ author: SunWoon
 source-url: https://www.novelupdates.com/series/boundless-necromancer/
 total-chapters: 166
 current-chapter: 0
+side-stories-total: 0
+side-stories-read: 0
 rating: 3
 description: I never thought I could become a hunter. I never thought I would get the chance. But that wasn’t true. 「 ‘Tower of Trials’ has selected all suitable candidates from Earth. 」 「 Please select your difficulty. 」 「The chosen difficulty will be directly proportional to your rewards. 」 I was given a chance now. A special one at that.
 genre: []
@@ -31,13 +33,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `prologue`, latest `c166`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-?
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

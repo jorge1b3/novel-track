@@ -14,6 +14,8 @@ author: Writing Ant
 source-url: https://www.novelupdates.com/series/the-reincarnated-assassin-is-a-genius-swordsman/
 total-chapters: 1070
 current-chapter: 328
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: Raon’s entire life had been lived as a dog on a leash. Through a twist of fate, he obtained a new life. Wrath remained in the wreckage of his destroyed leash. Finally capable of standing on his own feet, he decided to live life by his own will. He would slay anyone standing in his way… Even if they were a god.
 genre: []
@@ -32,16 +34,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c328`, latest `c1070`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-328
-
-### Unread
-- [ ] Chapters 329-1070
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

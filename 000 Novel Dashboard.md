@@ -15,6 +15,8 @@ const novels = dv.pages('#novel')
   .where(p => p.status === "Reading" && p["current-chapter"])
   .sort(p => p.file.name, 'asc');
 
+const formatCh = (cc, tc, item) => `${cc}/${tc}` + (item["side-stories-total"] > 0 ? ` (+${item["side-stories-read"] || 0}/${item["side-stories-total"]} side)` : "");
+
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
   for (const ext of ['.jpg', '.png', '.jpeg', '.webp']) {
@@ -73,7 +75,7 @@ for (const n of novels) {
 
   // Progress bar
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${currentCc}/${currentTc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: formatCh(currentCc, currentTc, n), attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
@@ -82,7 +84,7 @@ for (const n of novels) {
     currentCc = newCc;
     currentTc = newTc;
     const newPct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
-    chLabel.textContent = `${currentCc}/${currentTc}`;
+    chLabel.textContent = formatCh(newCc, newTc, n);
     fill.style.width = `${newPct}%`;
     pctLabel.textContent = `${newPct}%`;
   };
@@ -138,6 +140,8 @@ const novels = dv.pages('#novel')
   .where(p => p.status === "On-Hold")
   .sort(p => p.file.name, 'asc');
 
+const formatCh = (cc, tc, item) => `${cc}/${tc}` + (item["side-stories-total"] > 0 ? ` (+${item["side-stories-read"] || 0}/${item["side-stories-total"]} side)` : "");
+
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
   for (const ext of ['.jpg', '.png', '.jpeg', '.webp']) {
@@ -191,7 +195,7 @@ for (const n of novels) {
   info.createEl("div", { text: meta.join(" · "), attr: { class: "novel-meta" } });
 
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${currentCc}/${currentTc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: formatCh(currentCc, currentTc, n), attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
@@ -200,7 +204,7 @@ for (const n of novels) {
     currentCc = newCc;
     currentTc = newTc;
     const newPct = currentTc > 0 ? Math.round(currentCc / currentTc * 100) : 0;
-    chLabel.textContent = `${currentCc}/${currentTc}`;
+    chLabel.textContent = formatCh(newCc, newTc, n);
     fill.style.width = `${newPct}%`;
     pctLabel.textContent = `${newPct}%`;
   };
@@ -255,6 +259,8 @@ const novels = dv.pages('#novel')
   .where(p => p.status === "Plan-to-Read")
   .sort(p => p.file.name, 'asc');
 
+const formatCh = (cc, tc, item) => `${cc}/${tc}` + (item["side-stories-total"] > 0 ? ` (+${item["side-stories-read"] || 0}/${item["side-stories-total"]} side)` : "");
+
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
   for (const ext of ['.jpg', '.png', '.jpeg', '.webp']) {
@@ -308,7 +314,7 @@ for (const n of novels) {
   info.createEl("div", { text: meta.join(" · "), attr: { class: "novel-meta" } });
 
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${cc}/${tc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: formatCh(cc, tc, n), attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
@@ -348,6 +354,8 @@ for (const n of novels) {
 const novels = dv.pages('#novel')
   .where(p => p.status === "Completed")
   .sort(p => p.file.name, 'asc');
+
+const formatCh = (cc, tc, item) => `${cc}/${tc}` + (item["side-stories-total"] > 0 ? ` (+${item["side-stories-read"] || 0}/${item["side-stories-total"]} side)` : "");
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -400,7 +408,7 @@ for (const n of novels) {
   info.createEl("div", { text: meta.join(" · "), attr: { class: "novel-meta" } });
 
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${cc}/${tc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: formatCh(cc, tc, n), attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--color-green);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });
@@ -427,6 +435,8 @@ for (const n of novels) {
 const novels = dv.pages('#novel')
   .where(p => p.status === "Dropped")
   .sort(p => p.file.name, 'asc');
+
+const formatCh = (cc, tc, item) => `${cc}/${tc}` + (item["side-stories-total"] > 0 ? ` (+${item["side-stories-read"] || 0}/${item["side-stories-total"]} side)` : "");
 
 function resolveCover(novelPath) {
   const slug = novelPath.split('/').pop().replace(/\.md$/, '');
@@ -481,7 +491,7 @@ for (const n of novels) {
   info.createEl("div", { text: meta.join(" · "), attr: { class: "novel-meta" } });
 
   const barRow = info.createEl("div", { attr: { class: "novel-bar-wrap" } });
-  const chLabel = barRow.createEl("span", { text: `${cc}/${tc}`, attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
+  const chLabel = barRow.createEl("span", { text: formatCh(cc, tc, n), attr: { style: "font-size:0.8em;font-weight:600;white-space:nowrap;color:var(--text-muted);" } });
   const bar = barRow.createEl("div", { attr: { class: "novel-bar-out" } });
   const fill = bar.createEl("div", { attr: { style: `width:${pct}%;height:100%;background:var(--interactive-accent);border-radius:3px;` } });
   const pctLabel = barRow.createEl("span", { text: `${pct}%`, attr: { style: "font-size:0.75em;color:var(--text-faint);white-space:nowrap;" } });

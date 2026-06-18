@@ -15,6 +15,8 @@ author: Suerte
 source-url: https://www.novelupdates.com/series/martial-arts-aint-that-big-of-a-deal/
 total-chapters: 30
 current-chapter: 1
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: I fell into a wannabe murim. But apparently martial arts is supposed to be difficult? Hm… Is it really that bad?
 genre: []
@@ -33,16 +35,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c1`, latest `c30`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-1
-
-### Unread
-- [ ] Chapters 2-30
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

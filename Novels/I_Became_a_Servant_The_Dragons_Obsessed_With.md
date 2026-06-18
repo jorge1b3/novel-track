@@ -18,6 +18,8 @@ author: 유레이커
 source-url: https://www.novelupdates.com/series/i-became-a-servant-the-dragons-obsessed-with/
 total-chapters: 34
 current-chapter: 34
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: I was transmigrated into a gacha game after sending an aggressive review. Now, I’m the dormitory supervisor and servant in an academy far from the romanticized school life I’d imagined. It’s somewhat bearable, except for the reptiles treating me like a s*ave. I had hoped for a peaceful pseudo-staff life, but… It seems I’m not just any ordinary servant.
 genre: []
@@ -36,13 +38,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c34`, latest `c29`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-?
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

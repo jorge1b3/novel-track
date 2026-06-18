@@ -16,6 +16,8 @@ author: E급작가
 source-url: https://www.novelupdates.com/series/raising-the-northern-grand-duchy-as-a-max-level-all-master/
 total-chapters: 101
 current-chapter: 101
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: I’ve become the ultimate crafting all-master character in a game world, excelling at everything except combat. And now, I am the only one who can save this Northern Grand Duchy.
 genre: []
@@ -34,13 +36,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c101 part2`, latest `c80`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-?
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

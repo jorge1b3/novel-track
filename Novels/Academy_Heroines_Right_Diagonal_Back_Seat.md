@@ -19,6 +19,8 @@ author: 사리망
 source-url: https://www.novelupdates.com/series/academy-heroines-right-diagonal-back-seat/
 total-chapters: 11
 current-chapter: 0
+side-stories-total: 0
+side-stories-read: 0
 rating: 4
 description: “I really feel like having one of those special macarons from the cafeteria today. You think you could get me one?” I sit diagonally behind the heroine in class. I’m basically her errand girl. “We are [friends] , after all.” …And I’m happy to do it.
 genre: []
@@ -37,16 +39,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c0`, latest `c11`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-?
-
-### Unread
-- [ ] Chapters 1-11
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```

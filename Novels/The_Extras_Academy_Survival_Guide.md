@@ -12,11 +12,13 @@ tags:
 fileClass: novel
 aliases:
   - The Extra's Academy Survival Guide
-status: Completed
+status: Reading
 author: Korita
 source-url: https://www.novelupdates.com/series/the-extras-academy-survival-guide/
 total-chapters: 250
 current-chapter: 250
+side-stories-total: 49
+side-stories-read: 1
 rating: 5
 description: I ended up transmigrating as a third-rate extra in a game I liked, but worst of all, this character had already fallen and been disowned. I have no ambitions. I just want to graduate, but the world won’t let me.
 genre: []
@@ -35,13 +37,17 @@ cssclasses:
 | **Status** | `INPUT[inlineSelect(option(Reading), option(Plan-to-Read), option(Completed), option(Dropped), option(On-Hold)):status]` |
 | **Rating** | `INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]` |
 | **Progress** | `INPUT[number:current-chapter]` / `INPUT[number:total-chapters]` ch |
+| **Side Stories** | `INPUT[number:side-stories-read]` / `INPUT[number:side-stories-total]` ch |
 | **Genres** | `=this.file.tags` |
 
 _NU: my chapter `c190`, latest `ss 37`_
 
 ---
 
-## Chapter Log
+## Side Stories
 
-### Read
-- [x] Chapters 1-?
+```dataview
+TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
+FROM #side-story
+WHERE parent = this.file.link
+```
