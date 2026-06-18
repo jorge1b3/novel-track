@@ -56,7 +56,7 @@ WHERE parent = this.file.link
 ---
 
 ## Thoughts & Review
-* **What I Liked**: 
-* **What I Disliked**: 
+* **What I Liked**: La novela se siente natural. Como que es muy regional, aunque pensada para un publico internacional, se nota el sentimiento coreano
+* **What I Disliked**: Como dije antes se siente bastante koreana. Esto es buno y malo. Le da originalidad, pero tambien trae algunas partes desagradabeles, como su racismo y homofobia en el escrito quedan bastante plasmados. 
 * **Key Characters / Arcs**: 
 * **Overall Impressions**: 

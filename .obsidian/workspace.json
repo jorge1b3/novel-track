@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000 Novel Dashboard.md",
-                "mode": "preview",
+                "file": "Novels/Murim_Login.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "000 Novel Dashboard"
+              "title": "Murim_Login"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "ff72b80e2c885689",
   "lastOpenFiles": [
-    "Novels/Murim_Login.md",
     "000 Novel Dashboard.md",
+    "Novels/Murim_Login.md",
     "covers/Murim_Login.webp",
     "covers/temp_Murim_Login.jpg",
     "Novels/Academys_Undercover_Professor.md",
