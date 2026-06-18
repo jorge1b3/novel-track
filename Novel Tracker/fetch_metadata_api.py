@@ -64,7 +64,7 @@ def main():
             
         # Scrape Cover URL
         cover_url = ""
-        m_img = re.search(r'<div class="seriesimg">\s*<img src="([^"]+)"', html_content)
+        m_img = re.search(r'<div class="series(?:edit)?img">.*?<img[^>]+src="([^"]+)"', html_content, re.DOTALL)
         if m_img:
             cover_url = m_img.group(1)
             

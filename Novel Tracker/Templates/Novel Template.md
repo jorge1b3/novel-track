@@ -116,11 +116,11 @@ ${description}
 
 ## Side Stories
 
-```dataview
+\`\`\`dataview
 TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Total"
 FROM #side-story
 WHERE parent = this.file.link
-```
+\`\`\`
 
 ---
 

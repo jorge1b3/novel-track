@@ -170,8 +170,11 @@
   },
   "active": "ff72b80e2c885689",
   "lastOpenFiles": [
-    "Novels/Academys_Undercover_Professor.md",
+    "Novels/Murim_Login.md",
     "000 Novel Dashboard.md",
+    "covers/Murim_Login.webp",
+    "covers/temp_Murim_Login.jpg",
+    "Novels/Academys_Undercover_Professor.md",
     "Novels/The_Extras_Academy_Survival_Guide.md",
     "Novel Tracker/fetch_metadata_api.py",
     "Novel Tracker/Templates/Side Story Template.md",
@@ -198,15 +201,12 @@
     "Novels/The_Master_of_the_Brave.md",
     "Novels/The_Main_Heroines_are_Trying_to_Kill_Me.md",
     "Novels/The_Legendary_Moonlight_Sculptor.md",
-    "Novels/The_Legendary_Mechanic.md",
-    "Novels/The_Greatest_Estate_Designer.md",
     "Novels",
     "covers/Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.webp",
     "covers/temp_Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.jpg",
     "covers/Horror_Game_Developer_My_games_arent_that_scary.webp",
     "covers/temp_Horror_Game_Developer_My_games_arent_that_scary.jpg",
     "covers/Test_Novel.webp",
-    "covers/temp_Test_Novel.jpg",
     "Novel Tracker/download_cover.py",
     "Untitled.base",
     "Untitled 1.base",
@@ -215,7 +215,6 @@
     "Novel Tracker/__pycache__",
     "__pycache__/main.cpython-314.pyc",
     "__pycache__",
-    "Untitled.canvas",
-    "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg"
+    "Untitled.canvas"
   ]
 }
