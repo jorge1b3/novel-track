@@ -146,7 +146,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Novel Tracker/000 Novel Dashboard.md"
+                "file": "000 Novel Dashboard.md"
               },
               "icon": "lucide-info",
               "title": "File properties for 000 Novel Dashboard"
@@ -169,8 +169,11 @@
   },
   "active": "0dcd9c1a24b78e27",
   "lastOpenFiles": [
-    "Novel Tracker/Templates/Novel Template.md",
+    "Novels/Level_4_Human_in_a_Ruined_World.md",
     "000 Novel Dashboard.md",
+    "covers/Level_4_Human_in_a_Ruined_World.webp",
+    "covers/temp_Level_4_Human_in_a_Ruined_World.jpg",
+    "Novel Tracker/Templates/Novel Template.md",
     "covers/A_Villains_Will_to_Survive.webp",
     "Novel Tracker/000 Novel Dashboard.md",
     "Novels/Academys_Genius_Swordsman.md",
@@ -194,8 +197,6 @@
     "Novels/The_Greatest_Estate_Designer.md",
     "Novels/The_Extras_Academy_Survival_Guide.md",
     "Novels/The_Extra_Refuses_Excessive_Obsession.md",
-    "Novels/The_Executed_Sage_Reincarnates_as_a_Lich_and_Begins_a_War_of_Aggression.md",
-    "Novels/The_Editor_Is_the_Novels_Extra.md",
     "Novels",
     "covers/Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.webp",
     "covers/temp_Im_an_Infinite_Regressor_But_Ive_Got_Stories_to_Tell.jpg",
@@ -213,8 +214,6 @@
     "__pycache__",
     "Untitled.canvas",
     "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg",
-    "covers/A_Wild_Man_Has_Entered_the_Academy.webp",
-    "main",
-    "covers/Live_Stream_I_Am_A_Lord_In_Another_World.webp"
+    "main"
   ]
 }

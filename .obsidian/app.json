@@ -12,5 +12,8 @@
   ],
   "defaultViewMode": "preview",
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Novels",
+  "attachmentFolderPath": "covers"
 }
