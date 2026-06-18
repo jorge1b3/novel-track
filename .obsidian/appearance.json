@@ -7,7 +7,8 @@
     "extended-colorschemes",
     "custom-background",
     "its-frontmatter",
-    "minimal-cards"
+    "minimal-cards",
+    "notion-cards"
   ],
   "cssTheme": "AnuPpuccin",
   "theme": "system",

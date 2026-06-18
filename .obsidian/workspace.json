@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bff60945e7d7d415",
+        "id": "4745dde26b0c56a7",
         "type": "tabs",
         "children": [
           {
-            "id": "162b2ec76d87189a",
+            "id": "ff72b80e2c885689",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -153,11 +153,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 553.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,11 +168,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73cb940dc285a2a2",
+  "active": "ff72b80e2c885689",
   "lastOpenFiles": [
-    "Novel Tracker/fetch_metadata_api.py",
-    "Novels/The_Extras_Academy_Survival_Guide.md",
+    "Novels/Academys_Undercover_Professor.md",
     "000 Novel Dashboard.md",
+    "Novels/The_Extras_Academy_Survival_Guide.md",
+    "Novel Tracker/fetch_metadata_api.py",
     "Novel Tracker/Templates/Side Story Template.md",
     "Novels/Level_4_Human_in_a_Ruined_World.md",
     "covers/Level_4_Human_in_a_Ruined_World.webp",
@@ -214,7 +216,6 @@
     "__pycache__/main.cpython-314.pyc",
     "__pycache__",
     "Untitled.canvas",
-    "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg",
-    "main"
+    "covers/Death_Is_The_Only_Ending_For_The_Villain.jpg"
   ]
 }
