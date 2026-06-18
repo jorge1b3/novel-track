@@ -221,6 +221,8 @@ if __name__ == '__main__':
 
     print(f"Importing {path.name} with default status: {default_status}")
 
+    pathlib.Path('Novels').mkdir(parents=True, exist_ok=True)
+
     count_created = 0
     count_updated = 0
     for n in data:
@@ -228,7 +230,7 @@ if __name__ == '__main__':
         if result is None:
             continue
         slug, content, cc, tc, rating, url, title = result
-        out = pathlib.Path(f'{slug}.md')
+        out = pathlib.Path(f'Novels/{slug}.md')
         if out.exists():
             if update_novel_if_exists(out, default_status, cc, tc, rating, url, title):
                 count_updated += 1

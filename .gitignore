@@ -1,0 +1,19 @@
+# Obsidian Files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/backups/
+.obsidian/community-plugin-toc.json
+
+# Python Files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# OS/System Files
+.DS_Store
+Thumbs.db
