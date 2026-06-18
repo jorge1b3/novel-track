@@ -21,6 +21,8 @@ current-chapter: 34
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I was transmigrated into a gacha game after sending an aggressive review. Now, I’m the dormitory supervisor and servant in an academy far from the romanticized school life I’d imagined. It’s somewhat bearable, except for the reptiles treating me like a s*ave. I had hoped for a peaceful pseudo-staff life, but… It seems I’m not just any ordinary servant.
 genre: []
 cssclasses:
@@ -52,3 +54,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

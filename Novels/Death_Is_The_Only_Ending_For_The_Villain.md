@@ -20,6 +20,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I’ve reincarnated as the reverse harem game’s villainess, the one and only adopted daughter of the ducal Eckart family. But the difficulty just has to be the worst! Everything I do will only lead me to death. I must be paired with one of the main male characters from the heroine’s harem before the ‘real daughter’ of the duke family appears! Two older brothers who always pick a fight with me on every little thing. The insane crown prince whose route will always lead to my death. ‘I only see the heroine and no one else’s wizard, and also her loyal s*ave knight, too! ‘First, let’s take some of them which I see no hope in, out of the list!’ “I didn’t know my place up until now. From now on, I’ll live as quiet as a mouse so you wouldn’t care the slightest bit! But why do their interests in me keep on rising every time I draw the line?!
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -20,6 +20,8 @@ current-chapter: 208
 side-stories-total: 0
 side-stories-read: 0
 rating: 3
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: "[You have entered the dungeon at Gwachun Station’s 1st Exit.] When former high school student Kang Woojin finds himself returned back to Earth after being forcibly summoned to a foreign planet for 20 years, he soon finds that Earth is not the same, normal place as he once remembered it to be. With his former strength and age reset back to zero, watch Kang Woojin as he gets back on the path to becoming the Earth’s strongest Necromancer!"
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

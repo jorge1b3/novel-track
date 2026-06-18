@@ -16,6 +16,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I’ve become the Demon Lord, the final boss in a game, but… If I invade the human world? I’ll be slain by the max-level protagonist I raised. If I stop the invasion? I’ll be devoured by my starving demon generals. …Therefore, the only answer is farming.
 genre: []
 cssclasses:
@@ -47,3 +49,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -20,6 +20,8 @@ current-chapter: 4
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'Waking up, Kim Hajin finds himself in a familiar world but an unfamiliar body. A world he created himself and a story he wrote, yet never finished. He had become his novel’s extra, a filler character with no importance to the story. The only clue to escaping is to stay close to the main story line. However, he soon finds out the world isn’t exactly identical to his creation.'
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

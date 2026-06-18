@@ -18,6 +18,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I fell into a wannabe murim. But apparently martial arts is supposed to be difficult? Hm… Is it really that bad?
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

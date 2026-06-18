@@ -18,6 +18,8 @@ current-chapter: 24
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'Kim Hyun Woo lived the life of the wealthy thanks to his parents. But one day, he received a phone call informing him of a traffic accident which involved his parents. His father had died and his mother was hospitalized in critical condition. The normal life he once knew, collapsed… They sold their house, cancelled various insurance plans, and moved to a one room apartment. And after a few years, Hyun Woo spends four to six hours tending to his mother and worked to pay for her medical bills. One day, one of his Instructors recommended him for position in a company called Global Exos, who made an announcement of making history with the newest technological invention.'
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

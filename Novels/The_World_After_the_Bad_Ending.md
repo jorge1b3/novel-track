@@ -21,6 +21,8 @@ current-chapter: 123
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'When I transmigrated, the protagonist was already dead. Now, I have to protect the world after the bad ending. So, first things first, I became the enemy of the main heroine, who was on the brink of ending her life. “I finally understand what all those things you said really meant.” “I’m like this because of you, junior. Take responsibility.” “I can only sleep when I’m next to you.” …But for some reason, everyone is starting to act a little strange.'
 genre: []
 cssclasses:
@@ -52,3 +54,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

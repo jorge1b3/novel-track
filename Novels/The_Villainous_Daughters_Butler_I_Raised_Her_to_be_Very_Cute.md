@@ -18,6 +18,8 @@ current-chapter: 3
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Regaining the memories of his previous life, Cyril realised that he was an otome game’s character, the villainous daughter– Sophia’s butler. At the rate things were going, Sophia would eventually have the prince stolen away from her by the heroine, fall into darkness, and be executed. Wanting to save the villainous daughter he was so fond of, Cyril moved to eliminate all the factors that would cause her to fall into darkness, raising her up to be a talented and beautiful girl who could win the prince’s love, however…
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

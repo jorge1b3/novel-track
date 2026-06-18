@@ -18,6 +18,8 @@ current-chapter: 272
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I am dying to have a Class S Skill! [You have received a Class S Skill.] [However, you will die if you use the Skill.] ..I didn’t mean it literally.
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

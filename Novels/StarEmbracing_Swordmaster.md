@@ -17,6 +17,8 @@ current-chapter: 14
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Vlad, a destitute youngster from the slums, held an unwavering admiration for knights. Following an encounter with a bolt of black lightning, he started hearing a mysterious voice. One fateful day, a knight cloaked in the shimmering glow of the blue moonlight appeared, completely upending Vlad’s existence in the back alleys. This extraordinary event proved that even a faint star concealed among the darkest corners of the nocturnal firmament can still radiate its brilliance, should it yearn to shine.
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

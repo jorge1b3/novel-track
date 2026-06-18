@@ -24,6 +24,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "As the young Oracle of the Fox Clan, Huo Yuwan must undergo a trial set by the Grand Priest, traveling through countless small worlds to experience different lives and challenges. But after a while, she starts to notice something strange: Why does she always end up competing with the protagonist for the same woman?! …Wait, did she get assigned the villain role?! She’s lived through countless “redemption stories”: Campus Redemption: lazy passerby × gentle school doctor √ Retro Era Redemption: sunny orphan × cold scholar √ Wartime Redemption: domineering eldest daughter × seductive aunt √ Entertainment Industry Redemption: crippled sponsor × tsundere idol √ Imperial Court Redemption: ruthless empress × restrained minister √ Interstellar Redemption: spoiled officer × obsessive agent √ Modern Urban Redemption: flirtatious fiancée × uptight principal √ Apocalypse Redemption: brutal warden × charming widow √ …and in every single world, she’s the one the heroine can’t resist. So, what if she’s the “villain”? When a fox spirit decides to seduce a wife, victory’s only a matter of time. Main Characters: Huo Yuwan – Fox Spirit and minor goddess of fate, charming, cunning, and seductive. Li Xuzhi – The destined heroine across worlds, whose heart seems to fall for the “villain” every time."
 genre: []
 cssclasses:
@@ -55,3 +57,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

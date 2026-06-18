@@ -15,6 +15,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Immediately after Gu Changge realized he had transgressed into a fantasy world, the world’s protagonist, and fortune’s chosen, vowed to take revenge on him. Envied by all, he not only has the female lead head over heels for him but he’s also treated as a distinguished guest wherever he goes. Fortunately, Gu Changge’s prestige and power are superior to everyone else’s, so shouldn’t it be easy to trample on a mere fortune’s chosen? Hold on… There’s a system dedicated to milking and harvesting from the protagonist? Gu Change smirked. “Seems like even fate wants me to fulfill my destiny as the Villain of this world!”
 genre: []
 cssclasses:
@@ -46,3 +48,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

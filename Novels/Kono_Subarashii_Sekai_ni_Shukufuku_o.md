@@ -20,6 +20,8 @@ current-chapter: 17
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'Kazuma Satou is a shut in who loves games, and his life ended suddenly… appearing before him is a beautiful girl claiming to be a goddess. Kazuma, who was transported into another world, worked hard to earn a living! He wanted to live a stable life, but was burdened with problems caused by the goddess he brought along to the different world with him. He was even targeted by the demon king’s army!?'
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

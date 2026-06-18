@@ -18,6 +18,8 @@ current-chapter: 0
 side-stories-total: 0
 side-stories-read: 0
 rating: 3
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: "One day, a tower appeared in the skies of all the major cities… Humans were suddenly summoned to become “Walkers”, and they needed to clear the tower to save the world. Floor 77: The “Stone of Regression” was discovered. Walkers could now “return” to the past. Slowly… everyone left. Humanity’s last hope, “Carpe Diem”, was formed, joined by people who refused to abandon the world. The last Walker reached floor 100. He no longer knew what to believe."
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -17,6 +17,8 @@ current-chapter: 172
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: The happiest thing in the world is to be able to amend what you have done wrong. She who acted willfully because of a game, was reincarnated into a time when she still had her parents’ love. For the sake of her family, she began her life as a pro gamer. But this time, she was no longer the Human Sorceress that she was familiar with. She was an Elven Huntress. Could she still acquire the power to be the Right Hand of God?
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

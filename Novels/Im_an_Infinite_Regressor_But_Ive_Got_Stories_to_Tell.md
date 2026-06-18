@@ -21,6 +21,8 @@ current-chapter: 44
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: There is such a genre. In any novel, regression is a cheat key!     What if it’s the ability of [Infinite Regression]?     No need to worry about any bad endings, after all, the protagonist will eventually reach a happy ending.     “Cheat key my foot.”     I tried it myself and it wasn’t so.     The success myths of regressors depicted in various novels are actually fake news…!     They were merely vile propaganda…!     “This run is doomed too.”     This is not a story of success. It’s a tale of a failure’s aftermath.     The heartfelt true-life documentary told by someone with 1183 runs of experience, now begins!
 ---
 
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -1,38 +1,76 @@
 <%*
 const displayTitle = await tp.system.prompt("Novel title");
-const author = await tp.system.prompt("Author name");
-const sourceUrl = await tp.system.prompt("Source URL");
+const sourceUrl = await tp.system.prompt("Source URL or NovelUpdates Link (optional)") || "";
 const totalCh = parseInt(await tp.system.prompt("Total chapters released") || 0);
 const currentCh = parseInt(await tp.system.prompt("Last read chapter number") || 0);
-const description = await tp.system.prompt("Short description (optional)") || "";
-const coverUrl = await tp.system.prompt("Novel cover URL (optional)") || "";
 
 // Sanitize filename: only a-zA-Z, spaces → _
 const slug = displayTitle.replace(/[^a-zA-Z0-9 ]/g, '').replace(/ /g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '');
 if (slug) await tp.file.rename(slug);
 
-if (coverUrl && coverUrl.trim() !== "") {
-  const vaultPath = app.vault.adapter.getBasePath();
-  const scriptPath = vaultPath + "/Novel Tracker/download_cover.py";
-  const safeUrl = coverUrl.replace(/"/g, '\\"');
-  const safeTitle = displayTitle.replace(/"/g, '\\"');
-  
-  const cp = (typeof require !== 'undefined') ? require('child_process') : window.require('child_process');
-  await new Promise((resolve) => {
-    cp.exec(`python3 "${scriptPath}" "${safeUrl}" "${safeTitle}"`, (error, stdout, stderr) => {
-      if (error) {
-        console.error("Cover download error:", error, stderr);
-      } else {
-        console.log("Cover download output:", stdout);
-      }
-      resolve();
+let author = "";
+let description = "";
+let fetchedTags = [];
+let coverDownloaded = false;
+
+const vaultPath = app.vault.adapter.getBasePath();
+const cp = (typeof require !== 'undefined') ? require('child_process') : window.require('child_process');
+
+if (sourceUrl && sourceUrl.trim() !== "") {
+  if (sourceUrl.includes("novelupdates.com/series/")) {
+    const scriptPath = vaultPath + "/Novel Tracker/fetch_metadata_api.py";
+    const safeUrl = sourceUrl.replace(/"/g, '\\"');
+    const safeTitle = displayTitle.replace(/"/g, '\\"');
+    
+    const stdout = await new Promise((resolve) => {
+      cp.exec(`python3 "${scriptPath}" "${safeUrl}" "${safeTitle}"`, (error, stdout, stderr) => {
+        resolve(stdout);
+      });
     });
-  });
+    
+    try {
+      const data = JSON.parse(stdout);
+      if (data.author) author = data.author;
+      if (data.description) description = data.description;
+      if (data.genres) fetchedTags = data.genres;
+      if (data.cover_downloaded) coverDownloaded = true;
+    } catch (e) {
+      console.error("Error parsing fetched metadata:", e);
+    }
+  }
+}
+
+// Fallback prompts if metadata wasn't fetched
+if (!author) {
+  author = await tp.system.prompt("Author name") || "";
+}
+if (!description) {
+  description = await tp.system.prompt("Short description (optional)") || "";
+}
+
+// Fallback cover download if cover was not downloaded via NovelUpdates API
+if (!coverDownloaded) {
+  const coverUrl = await tp.system.prompt("Novel cover URL (optional)") || "";
+  if (coverUrl && coverUrl.trim() !== "") {
+    const scriptPath = vaultPath + "/Novel Tracker/download_cover.py";
+    const safeUrl = coverUrl.replace(/"/g, '\\"');
+    const safeTitle = displayTitle.replace(/"/g, '\\"');
+    await new Promise((resolve) => {
+      cp.exec(`python3 "${scriptPath}" "${safeUrl}" "${safeTitle}"`, (error, stdout, stderr) => {
+        resolve();
+      });
+    });
+  }
 }
 
 function yamlStr(s) {
   if (!s || s.trim() === "") return "";
   return "'" + s.replace(/'/g, "''") + "'";
+}
+
+let tagsYaml = "tags:\n  - novel";
+if (fetchedTags && fetchedTags.length > 0) {
+  tagsYaml += "\n" + fetchedTags.map(t => `  - ${t}`).join("\n");
 }
 
 
@@ -41,8 +79,7 @@ tR += `---
 fileClass: novel
 cssclasses:
   - novel-page
-tags:
-  - novel
+${tagsYaml}
 aliases:
   - ${yamlStr(displayTitle)}
 status: Reading
@@ -54,6 +91,8 @@ current-chapter: ${currentCh}
 side-stories-total: 0
 side-stories-read: 0
 rating:
+date-started: 
+date-completed: 
 description: ${yamlStr(description)}
 ---
 
@@ -83,5 +122,12 @@ FROM #side-story
 WHERE parent = this.file.link
 ```
 
+---
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 
 `;
 _%>

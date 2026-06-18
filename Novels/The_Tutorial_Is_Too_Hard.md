@@ -19,6 +19,8 @@ current-chapter: 40
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "On a normal boring day, a message appears, inviting him to a Tutorial. A tale about Lee Ho Jae and his escape from the Tutorial. But he just happened to choose the hardest possible difficulty: Hell…"
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

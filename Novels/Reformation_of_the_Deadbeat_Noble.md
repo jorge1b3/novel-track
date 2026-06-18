@@ -18,6 +18,8 @@ current-chapter: 118
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Airen Parreira is a boy who sleeps to run away from reality. People mocked him, calling him a ‘deadbeat’, but he had no wish to change. Until one day, he dreamt of a swordsman… It was a dream about a talentless man who had been training by swinging his sword for decades.
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

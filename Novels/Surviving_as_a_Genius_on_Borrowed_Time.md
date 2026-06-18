@@ -15,6 +15,8 @@ current-chapter: 32
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: With unmatched talent, but a fate sealed by a terminal illness, Jeong Yeon-shin challenges his destined death for a chance to live. Set in a realm where elves and dwarves coexist with martial artists, this is the story of Jeong Yeon-shin, a genius fighting to extend his life against all odds.
 genre: []
 cssclasses:
@@ -46,3 +48,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

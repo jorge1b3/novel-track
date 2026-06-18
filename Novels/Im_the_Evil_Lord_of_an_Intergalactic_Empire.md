@@ -20,6 +20,8 @@ current-chapter: 11
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Liam Sera Banfield is a reincarnator. He had reincarnated into a fantasy world of magic and swords, but at the time the civilization had already been making advancements into outer space. The setting takes place in an intergalactic empire, a space opera-like universe where humanoid weapons and spaceships battle. Liam, who had been reborn into an aristocratic family in a monarchic society, has the ambition to one day become an evil lord. In his previous life, Liam had unfortunately lost everything and died in despair. — It’s foolish to live for others. — I will live for myself. Keeping those feelings in his heart, he has decided to fulfill his goal, but is instead worshipped as a virtuous ruler due to his difference in values. Will Liam be able to become an evil lord?
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

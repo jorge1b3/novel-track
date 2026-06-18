@@ -16,6 +16,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: The only son of a country side baron, who is called tr*sh and hated by his family, subordinates, and every citizen of the fief. One day, he suddenly loses consciousness, and when he opens his eyes… Inside his body was… a Korean civil engineer.
 genre: []
 cssclasses:
@@ -47,3 +49,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

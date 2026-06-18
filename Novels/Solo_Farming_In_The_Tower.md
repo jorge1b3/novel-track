@@ -18,6 +18,8 @@ current-chapter: 204
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: One day, a mysterious tower suddenly appeared in the city. The people decided to call it a dungeon, and while it was full of rugged terrain and dangerous monsters, it was also a land of opportunity, where countless treasures awaited. When Sejun, a young man living an ordinary life, is invited to the dungeon by chance, he is thrilled at the prospect of becoming rich, but he is stranded in a hidden area of the mysterious tower. All he has is a few seeds and his body. Now Sejun must farm, collect resources, and figure out his own survival strategy!
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

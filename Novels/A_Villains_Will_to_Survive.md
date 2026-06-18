@@ -21,6 +21,8 @@ current-chapter: 361
 side-stories-total: 0
 side-stories-read: 0
 rating: 3
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: "The middle boss of the AAA-class game produced by the company. The villain who dies 999 times out of 1,000 times. Deculein. That person, was me now. “You’re going to die on almost every route.” Dyein, like all villains, inevitably dies. [First and foremost survival goal: Be what the game requires you to be] I’ll have to survive even if it means twisting my fate if I am destined to die."
 genre: []
 cssclasses:
@@ -52,3 +54,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -22,6 +22,8 @@ current-chapter: 22
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'At the Tristain Magic Academy, her classmates call bumbling witch-in-training Louise Francoise le Blanc de la Valliere “Louise the Zero.” During an important coming-of-age ritual, when each student must summon their own witch’s familiar, Louise confirms her classmates’ opinion by accidentally conjuring up a normal teenage boy from Japan. Whether the two of them like it or not, the laws of magic bind them as master and servant forever! A hilarious novel with romance interwined.'
 genre: []
 cssclasses:
@@ -53,3 +55,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

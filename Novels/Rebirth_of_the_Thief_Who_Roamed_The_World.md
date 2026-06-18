@@ -16,6 +16,8 @@ current-chapter: 322
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 'The world’s largest VRMMO, Conviction, was almost like a second world for humanity. It had integrated itself into the real world’s economy, with both corporations and individuals seeking their fortunes through the game. In this game, Nie Yan prided himself on his Level 180 Thief. He could barely be considered among the top experts in the game. Though, that was the only thing he could take pride in. He was penniless and unable to advance in life; a situation he was forced into by the enemy of his father. If it weren’t for the little money he made by selling off items in Conviction, he would’ve barely been able to eat. In the end, he chose to settle his matters once and for all. He assassinated his father’s enemy. He lay dying shortly after being shot in the pursuit. However, that wasn’t the end of his story. Instead, he awoke moments later to find that he had reincarnated into his past self. Armed with his experience and knowledge of future events, he sets out to live his life anew.'
 genre: []
 cssclasses:
@@ -47,3 +49,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

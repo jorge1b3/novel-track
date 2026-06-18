@@ -20,6 +20,8 @@ current-chapter: 321
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "[Desarrollador de juegos de terror: ¡Mis juegos no dan tanto miedo!]  Odio el terror.  Desde el sonido apresurado de pasos que corrían tras de mí, hasta los susurros suaves pero inquietantemente fríos que se enroscaban en mis oídos...  Todo.  Lo odio. "
 ---
 
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

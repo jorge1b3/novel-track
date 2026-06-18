@@ -17,6 +17,8 @@ current-chapter: 275
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 5 years after the world changed, the final boss appeared. [The final boss for area Earth, the Frost Queen, has appeared.] The final boss! If we can just defeat her, our lives will go back to normal! The top five players in the world, including Specter Seo Jun-ho, finally defeated the Frost Queen… But they fell into a deep slumber. 25 years passed. “A second floor? It didn’t end when the Frost Queen died? Specter awakes from his slumber.
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

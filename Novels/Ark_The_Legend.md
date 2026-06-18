@@ -20,6 +20,8 @@ current-chapter: 16
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: A new game which the nation has dived into. From the bloody battlefields to the pyramids of ancient times, head into the colourful world of Galaxian. The glorious days of the legendary gamer Ark is over. From finding a job to saving the party from a humiliating death, nothing is easily solved……
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

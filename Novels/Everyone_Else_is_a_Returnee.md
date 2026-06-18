@@ -21,6 +21,8 @@ current-chapter: 25
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'Yu Ilhan was always the one left behind. Left out of cliques in school. Left out of social invitations. Just…always left out. Except now he’s been left behind for real. When Earth’s future is threatened, Yu Ilhan stays behind while the rest of the population flees to other planets for safety. It’s up to Yu Ilhan to save our planet before it’s too late!'
 genre: []
 cssclasses:
@@ -52,3 +54,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

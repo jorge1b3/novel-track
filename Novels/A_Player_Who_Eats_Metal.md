@@ -15,6 +15,8 @@ current-chapter: 71
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: Lee Hyunwook, who originally had the ability to control steel in the world. He tried to protect the world but ultimately failed and the world was destroyed. Following that, he was given the opportunity to return to his military days and build up efforts to prevent the world from being destroyed one by one. An army + Hunter + Regression + Savior “In this life, I’ll be a real hero.” Will Lee Hyunwook be able to save the world this time?
 genre: []
 cssclasses:
@@ -46,3 +48,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

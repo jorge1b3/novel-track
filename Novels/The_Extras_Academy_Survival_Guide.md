@@ -20,6 +20,8 @@ current-chapter: 250
 side-stories-total: 49
 side-stories-read: 1
 rating: 5
+date-started: 
+date-completed: 
 description: I ended up transmigrating as a third-rate extra in a game I liked, but worst of all, this character had already fallen and been disowned. I have no ambitions. I just want to graduate, but the world won’t let me.
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

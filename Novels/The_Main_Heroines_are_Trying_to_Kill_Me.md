@@ -19,6 +19,8 @@ current-chapter: 21
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: To save the hopeless Dark Fantasy World, I held back my tears and destroyed the world, then killed the Demon King and returned. Now, I’m trying to save the world using the “System” I gained as a “Regressor’s Privilege”… But the Main Heroines have also awakened their own memories of the previous timeline. God damn it.
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

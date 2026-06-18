@@ -17,6 +17,8 @@ current-chapter: 328
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Raon’s entire life had been lived as a dog on a leash. Through a twist of fate, he obtained a new life. Wrath remained in the wreckage of his destroyed leash. Finally capable of standing on his own feet, he decided to live life by his own will. He would slay anyone standing in his way… Even if they were a god.
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

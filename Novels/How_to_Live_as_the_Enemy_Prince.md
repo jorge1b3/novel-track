@@ -18,6 +18,8 @@ current-chapter: 0
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 'I could hear the hum of life in my ears. It was hard to breathe…. … I raised my gaze and stared into the distance. However, my blurred vision could not see anything. The light began to fade. That was my last memory. When I opened my eyes once again, it was 10 years before that last memory took place. And of all the things I could have become, it was from the enemy country that drove Secretia to ruin – I became Kyris’ third prince Calian.'
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

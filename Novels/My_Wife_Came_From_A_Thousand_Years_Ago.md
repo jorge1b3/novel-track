@@ -18,6 +18,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: “I want to go home.” “You may not be able to go back.” “Why?” “Because it’s a long way to your house.” “How far is it?” “About twelve hundred years away,” Xu Qing directed a sympathetic gaze towards the young girl who hailed from the Tang Dynasty, “Everything you knew has become history.” Family, friends, and enemies— all silenced twelve hundred years ago…
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

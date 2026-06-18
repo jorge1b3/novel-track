@@ -19,6 +19,8 @@ current-chapter: 307
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 'Ning Shu had dropped dead. But in a burst of good fortune, she became a task-taker in charge of counterattacking for the pitiful cannon fodders. Thus, Ning Shu, in one world after another, took all kinds of life roles and encountered all kinds of “you’re heartless, you’re ruthless, you’re making trouble for no reason” people. She encountered all sorts of white lotus flowers, green tea b*tches, scheming b*tches, by the batch. “Does any true beauty still exist in the world?!” Bellowed Ning Shu angrily. “You annoying tr*sh! I’m just here to counterattack, please don’t get in the way of me completing my task.” Transmigration main character, reincarnation main character. There’s only a lazy task-taker, no indestructible main character halo. Ning Shu had no choice, but to painfully gather moral integrity in each of the worlds.'
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

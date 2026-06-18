@@ -22,6 +22,8 @@ current-chapter: 0
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: “I really feel like having one of those special macarons from the cafeteria today. You think you could get me one?” I sit diagonally behind the heroine in class. I’m basically her errand girl. “We are [friends] , after all.” …And I’m happy to do it.
 genre: []
 cssclasses:
@@ -53,3 +55,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

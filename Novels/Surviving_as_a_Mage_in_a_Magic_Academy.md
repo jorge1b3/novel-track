@@ -17,6 +17,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Graduate student Yi-han finds himself reborn in another world as the youngest child of a mage family. “I’m never attending school, ever again!” “What do you wish to achieve in life?” “I wish to play around and live comfortab-.” “You must be aware of your talent. Now go attend Einrogard!” “Patriarch!” My future will be secured once I graduate. For my future!
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

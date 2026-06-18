@@ -22,6 +22,8 @@ current-chapter: 99
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: In a world of dungeons and monsters you can become strong if you merely have enough money. Rare skillbooks that can magically upgrade your skills in an instant are sold at exorbitant prices. So only the privileged and rich are able to buy their way to become hunters – a much revered occupation that allows one to enter dungeons and hunt monsters. Our MC is a porter, a sort of caddie for hunters. He dreams of one day becoming a hunter when he comes into possession of a skillbook. But the skill is a level 0. Something unheard of. No one wants it. People laugh at it. But he learns the skill – only to find that it may be the most amazing one yet.
 genre: []
 cssclasses:
@@ -53,3 +55,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

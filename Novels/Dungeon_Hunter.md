@@ -19,6 +19,8 @@ current-chapter: 242
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: 'I failed and will challenge again. There is no room for failure in my second life! 72 dungeons and their owners that appeared on earth. And the Awakened. I am a hunter that will devour all of them.'
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

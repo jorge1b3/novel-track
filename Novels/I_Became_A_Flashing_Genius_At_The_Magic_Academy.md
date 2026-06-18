@@ -22,6 +22,8 @@ current-chapter: 230
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: A character with extreme difficulty and the worst performance, Baek Yu-Seol was considered tr*sh in the game because he couldn’t use magic in a fantasy world where everyone else could. However… [Due to the wrong ending, 90% of Aether World has been destroyed.] [Please reach the ‘True Ending.’] Suddenly, those words echoed in my mind before I was transmigrated to the Aether World. [You can use the skill ‘Flash’.] “Why did I possess this character?” Flash was the only magic skill I was given. Surviving in Stella Academy where many genius mages ran rampant, I became the notorious Flash Mage.
 genre: []
 cssclasses:
@@ -53,3 +55,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

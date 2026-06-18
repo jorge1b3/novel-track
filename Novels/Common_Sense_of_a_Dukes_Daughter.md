@@ -17,6 +17,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: When a young woman is killed in a traffic accident on her way home from work at a tax bureau, she suddenly finds herself transported to the world of the otome game she was playing the night before – but instead of the heroine, she’s been reincarnated as the villainess! Using her knowledge of the game, “Iris” manages to avert personal disaster and decides to rebuild her life with her modern-day economic know-how. This is one mean girl who isn’t going to let her perceived reputation stop her from being a heroine!
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

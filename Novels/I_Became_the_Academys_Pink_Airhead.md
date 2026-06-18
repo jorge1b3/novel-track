@@ -20,6 +20,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: A city of academies where high school girls converse with swords and spears in hand. A comedy character who loves macarons and a cup of tea. Becoming a pink-haired dummy in a mobile game, acting as the weakest character with the pretty filter in my mouth and body. Yet in my heart, a man’s fighting spirit still boils like lava. “What a cutie. Ohoho☆”
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

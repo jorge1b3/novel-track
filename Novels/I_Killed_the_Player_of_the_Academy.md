@@ -20,6 +20,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Three years ago, I woke up as a game character – as a side character, at that. Heroic Legends of Arhan. The protagonist was also a reincarnator like me, so we decided to stick together and see the story through properly. But something was wrong… He said he didn’t know anything about the game, but this… “It’s fine, isn’t it? This world is just a game after all.” 『The player has been killed. You have failed the attempt.』 …This f*cker lost? I returned to the past; to three years ago. Now’s my chance. I must kill the player.
 genre: []
 cssclasses:
@@ -51,3 +53,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

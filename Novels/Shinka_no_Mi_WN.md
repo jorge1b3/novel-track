@@ -23,6 +23,8 @@ current-chapter: 67
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: A class full of idols and beautiful people are sent to another world. However there is one guy who is ugly, fat and smells… our protagonist. This is his comedic story of evolution and the slow building of his harem. The first heroine is a gorilla.
 genre: []
 cssclasses:
@@ -54,3 +56,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

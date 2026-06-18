@@ -17,6 +17,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "Lista, a Goddess from the God’s realm, has a huge task to accomplish. She must save the world Geabrande (with a S-rank difficulty salvation) from evil threats. To perform this task, she summons a hero from Planet Earth called Ryuguuin Seiya. This hero is exceptional and fully capable, but has one major problem: he is unbelievably cautious."
 genre: []
 cssclasses:
@@ -48,3 +50,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -22,6 +22,8 @@ current-chapter: 662
 side-stories-total: 0
 side-stories-read: 0
 rating: 5
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: Chen Yan travels between worlds, ending up becoming an honorable prince in a medieval fantasy world. Yet this world was not quite as simple as he thought. Witches with magical powers abound, and fearsome wars between churches and kingdoms rage throughout the land. Roland, a prince regarded as hopeless by his own father and assigned to the worst fief, spends his time developing a poor and backward town into a strong and modern city, while fighting against his siblings for the throne and absolute control over the kingdom. Join Roland as he befriends and allies with witches and, through fighting and even farming, pushes back invaders coming from the realm of evil.
 genre: []
 cssclasses:
@@ -53,3 +55,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -38,6 +38,8 @@ source-url: ${yamlStr(sourceUrl)}
 total-chapters: ${totalCh}
 current-chapter: ${currentCh}
 rating:
+date-started: 
+date-completed: 
 description: ${yamlStr(description)}
 ---
 
@@ -52,5 +54,12 @@ description: ${yamlStr(description)}
 | **Rating** | \`INPUT[inlineSelect(option(1, ⭐), option(2, ⭐⭐), option(3, ⭐⭐⭐), option(4, ⭐⭐⭐⭐), option(5, ⭐⭐⭐⭐⭐)):rating]\` |
 | **Progress** | \`INPUT[number:current-chapter]\` / \`INPUT[number:total-chapters]\` ch |
 
+---
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 
 `;
 _%>

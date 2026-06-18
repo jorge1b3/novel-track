@@ -19,6 +19,8 @@ current-chapter: 30
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: I definitely just wanted to be a VTuber… But when I came to my senses, I had become an actor.
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

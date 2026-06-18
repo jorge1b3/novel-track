@@ -19,6 +19,8 @@ current-chapter: 601
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "\"F**K! I'm dead!\" That was the first word I muttered after regaining my memories from Earth. Reincarnating into a world of cultivation should’ve been a blessing. Adventure, immortality, power—what’s not to love? But then I remembered what my family did. My sister just broke off an engagement with a crippled young master—definitely a future protagonist. My mother ripped a Dao Bone from my cousin and gave it to me—guaranteed future revenge arc. And me? I’m already a third-rate villain: bullying weaklings and flaunting my Bai Clan name. Worst part? Despite the Dao Bone, I’m still trash at cultivation. My only hope? The System... which I’ve had for years. "
 genre: []
 cssclasses:
@@ -52,3 +54,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

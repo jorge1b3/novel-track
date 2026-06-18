@@ -19,6 +19,8 @@ current-chapter: 125
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: "I created a game character. Instead of taking several perks, I added restrictions. ▶Restriction (I): “Curse of Sensory Seal” ─Permanently seals a chosen sense. ─Choice: Sight, Taste, Smell ▶Restriction (II): “Curse of Short Life” ─You are born with a body doomed to a short life. ▶Restriction (III): “Curse of Silence” ─Speaking causes you pain. When the next day came, I couldn’t see anything."
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

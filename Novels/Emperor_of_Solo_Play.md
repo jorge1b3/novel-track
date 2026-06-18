@@ -15,6 +15,8 @@ current-chapter: 0
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: '2026-01-01'
+date-completed: '2026-01-01'
 description: Year 2035. The virtual reality game, Warlord, changed the world. An Jaehyun was one of the many who wished to change his life through the game. After dedicating his life to the game, he was met with a betrayal. A betrayal by his comrades. As a result, he lost everything. But a chance was given to him. A chance to redo everything again! “I won’t play with others ever again. Whatever the outcome, I’ll show that I can do it alone.” Others rolled a dice to split the spoils of victory. An Jaehyun ate it all by himself. It was the start of An Jaehyun’s solo game life.
 genre: []
 cssclasses:
@@ -46,3 +48,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

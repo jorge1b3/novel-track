@@ -19,6 +19,8 @@ current-chapter: 81
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 'This is the tale of a boy dreaming about infinity as a human! Found abandoned in a stable, Shirone is the son of a hunter—and a peasant through and though. Despite hardships, he’s a genius that manages to learn to read by himself and becomes obsessed with it. Brimming with genius talent, he goes to the city with his father, where he learns about magic— beginning his journey as an explosive rising star!'
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

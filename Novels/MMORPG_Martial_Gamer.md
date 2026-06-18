@@ -19,6 +19,8 @@ current-chapter: 1
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Catching arrows, running up walls, crushing boulders and bending metal, these are but petty parlour tricks in the eyes of martial artists. But where can a genuine martial artist stand in an era where martial artists are nothing more than a myth? Wang Yu, the most peerless martial prodigy the world has ever seen, elopes with his wife to escape an arranged marriage that was set for him as a child. Now aimless and living off his wife, Wang Yu explores the world of “Rebirth,” to seek a living. Rebirth is a world where dragons, demons and immortals are more than just legends, and Wang Yu is set to make a legend of his own.
 genre: []
 cssclasses:
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

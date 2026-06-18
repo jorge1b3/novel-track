@@ -18,6 +18,8 @@ current-chapter: 212
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: Enemy of the world, cursed by all, Kim Sungchul goes on a quest to prevent the ‘prophecy of the end’ from coming to pass. But no matter how much he raised his strength, there were still some things he could not achieve with physical strength alone. Resolving to obtain the power of magic, he goes into hiding to learn magic from his most hated of enemies, The Mages.
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

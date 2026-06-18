@@ -5,6 +5,74 @@ tags:
 
 # Novel Dashboard
 
+```dataviewjs
+const allNovels = dv.pages('#novel');
+const completed = allNovels.where(p => p.status === "Completed");
+const reading = allNovels.where(p => p.status === "Reading");
+const onHold = allNovels.where(p => p.status === "On-Hold");
+const planToRead = allNovels.where(p => p.status === "Plan-to-Read");
+
+const totalChapters = allNovels.values.reduce((sum, p) => sum + (p["current-chapter"] || 0), 0);
+const ratedCompleted = completed.where(p => p.rating);
+const avgRating = ratedCompleted.length > 0 ? (ratedCompleted.values.reduce((sum, p) => sum + p.rating, 0) / ratedCompleted.length).toFixed(1) : "N/A";
+
+const container = dv.container.createEl("div", { attr: { style: "display:flex;gap:12px;margin:15px 0 25px 0;flex-wrap:wrap;" } });
+
+function createStatCard(label, val, color) {
+  const card = container.createEl("div", { attr: { style: `flex:1;min-width:140px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);border-radius:6px;padding:12px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.1);` } });
+  card.createEl("div", { text: label, attr: { style: "font-size:0.75em;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:0.5px;" } });
+  card.createEl("div", { text: val, attr: { style: `font-size:1.7em;font-weight:700;color:${color || 'var(--text-normal)'};margin-top:6px;` } });
+}
+
+createStatCard("Total Read", `${totalChapters} ch`, "var(--interactive-accent)");
+createStatCard("Reading", reading.length, "var(--text-accent)");
+createStatCard("Completed", completed.length, "var(--color-green)");
+createStatCard("Plan to Read", planToRead.length, "var(--text-muted)");
+createStatCard("Avg Rating", avgRating + " ★", "var(--color-yellow)");
+```
+
+---
+
+## Next Reads (Suggestions)
+
+```dataviewjs
+const planToRead = dv.pages('#novel')
+  .where(p => p.status === "Plan-to-Read");
+
+const suggestions = planToRead
+  .sort(p => p.rating || 0, 'desc')
+  .slice(0, 3);
+
+if (suggestions.length > 0) {
+  const sugDiv = dv.container.createEl("div", { attr: { style: "display:flex;gap:12px;flex-wrap:wrap;margin:10px 0 20px 0;" } });
+  for (const s of suggestions) {
+    const item = sugDiv.createEl("div", { attr: { style: "flex:1;min-width:200px;background:var(--background-secondary);border:1px solid var(--background-modifier-border);border-radius:6px;padding:12px;box-shadow:0 1px 3px rgba(0,0,0,0.05);" } });
+    
+    const titleLink = item.createEl("strong").createEl("a", { text: s.file.name, attr: { href: s.file.path, class: "internal-link" } });
+    titleLink.style.color = "var(--text-accent)";
+    titleLink.style.textDecoration = "none";
+    
+    if (s.author) {
+      item.createEl("div", { text: `by ${s.author}`, attr: { style: "font-size:0.85em;color:var(--text-muted);margin-top:4px;" } });
+    }
+    
+    const footer = item.createEl("div", { attr: { style: "display:flex;align-items:center;justify-content:space-between;margin-top:8px;" } });
+    if (s.rating) {
+      footer.createEl("span", { text: "★".repeat(s.rating) + "☆".repeat(5-s.rating), attr: { style: "color:var(--color-yellow);font-size:0.8em;" } });
+    } else {
+      footer.createEl("span", { text: "No rating", attr: { style: "color:var(--text-faint);font-size:0.8em;font-style:italic;" } });
+    }
+    
+    const genre = s.file.tags.filter(t => t !== "#novel").map(t => t.replace("#", ""))[0];
+    if (genre) {
+      footer.createEl("span", { text: genre, attr: { style: "font-size:0.7em;background:rgba(255,255,255,0.05);padding:2px 6px;border-radius:4px;color:var(--text-muted);" } });
+    }
+  }
+} else {
+  dv.paragraph("_No novels in Plan to Read list._");
+}
+```
+
 ---
 
 

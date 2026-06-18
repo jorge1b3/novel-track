@@ -22,6 +22,8 @@ current-chapter: 300
 side-stories-total: 0
 side-stories-read: 0
 rating: 3
+date-started: 
+date-completed: 
 description: 'Level 4 Human in a Destroyed World (멸망한 세계 de la 4급 인간) is a dark comedy, apocalyptic sci-fi web novel that subverts traditional "system" tropes through a unique cosmic lens.The Plot: The apocalypse hits Earth because half of humanity secretly desires the destruction of the world. A cosmic system initiates a "Vote of Extinction," allowing people to cast negative karma at those they hate. However, the catch is that those voted down return as vengeful, mutated monsters.The Protagonist: Jung Youngwoo, a 34-year-old factory worker, is chosen as a brand ambassador by Dogo, an infamous intergalactic arms-dealing corporation. Armed with absurdly powerful sci-fi weapons, he takes control of Seoul by intentionally choosing to distribute rewards and karma evenly to survivors rather than hoarding them.The Scale: The story starts as an urban survival struggle featuring bizarres outfits, corrupted chaebols, and a mother who mutates into a massive dragon. However, it quickly escalates into a massive space opera when the protagonist literally converts the entire Solar System into a giant spaceship to sail across the universe and make alliances with alien worlds.'
 ---
 
@@ -50,3 +52,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 

@@ -18,6 +18,8 @@ current-chapter: 0
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
+date-started: 
+date-completed: 
 description: 'Sometimes, as we go about with our lives, we all happen to think of one specific thought at least once. What if… I could go back to “that” time? The funny thing is, the moment you think such a thought is the precise moment when you came back to the past, from the future. “One more time.” Life, once again.'
 genre: []
 cssclasses:
@@ -49,3 +51,9 @@ TABLE status AS "Status", current-chapter AS "Progress", total-chapters AS "Tota
 FROM #side-story
 WHERE parent = this.file.link
 ```
+
+## Thoughts & Review
+* **What I Liked**: 
+* **What I Disliked**: 
+* **Key Characters / Arcs**: 
+* **Overall Impressions**: 
