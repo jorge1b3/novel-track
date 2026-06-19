@@ -1,0 +1,19 @@
+{
+  "propertiesInDocument": "hidden",
+  "vimMode": true,
+  "showInlineTitle": false,
+  "openBehavior": "file:Novel Tracker/000 Novel Dashboard",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "_metadata/",
+    "Novel Tracker/Templates/",
+    "__pycache__/"
+  ],
+  "defaultViewMode": "preview",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Novels",
+  "attachmentFolderPath": "covers"
+}

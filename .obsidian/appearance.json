@@ -1,0 +1,17 @@
+{
+  "enabledCssSnippets": [
+    "novel-page",
+    "novel-dashboard",
+    "floating-status-bar",
+    "floating-search-bar",
+    "extended-colorschemes",
+    "custom-background",
+    "its-frontmatter",
+    "minimal-cards",
+    "notion-cards"
+  ],
+  "cssTheme": "AnuPpuccin",
+  "theme": "system",
+  "showViewHeader": true,
+  "showRibbon": true
+}
