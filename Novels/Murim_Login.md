@@ -18,7 +18,7 @@ type: Web Novel
 author: Zero Big
 source-url: https://www.novelupdates.com/series/murim-login/
 total-chapters: 1187
-current-chapter: 723
+current-chapter: 728
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
