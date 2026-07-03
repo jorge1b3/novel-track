@@ -13,7 +13,7 @@ status: On-Hold
 author: Park Saenal
 source-url: https://www.novelupdates.com/series/overgeared/
 total-chapters: 2059
-current-chapter: 1729
+current-chapter: 1812
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
