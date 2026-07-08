@@ -1,0 +1,1 @@
+survival guide for failing classes in another world
