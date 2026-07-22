@@ -7,19 +7,19 @@ tags:
   - Supernatural
 fileClass: novel
 aliases:
-  - 'The Artist Who Paints Dungeon'
-status: Reading
+  - The Artist Who Paints Dungeon
+status: Dropped
 type: Web Novel
-author: '취미글주의'
-source-url: 'https://www.novelupdates.com/series/the-artist-who-paints-dungeon/?pg=31#myTable'
+author: 취미글주의
+source-url: https://www.novelupdates.com/series/the-artist-who-paints-dungeon/?pg=31#myTable
 total-chapters: 425
-current-chapter: 1
+current-chapter: 4
 side-stories-total: 0
 side-stories-read: 0
-rating: 
-date-started: 
-date-completed: 
-description: 'Why, seems like I’ve become a haunted portrait.'
+rating:
+date-started:
+date-completed:
+description: Why, seems like I’ve become a haunted portrait.
 genre: []
 cssclasses:
   - novel-page

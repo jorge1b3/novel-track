@@ -18,9 +18,9 @@ total-chapters: 375
 current-chapter: 375
 side-stories-total: 0
 side-stories-read: 0
-rating: 4
-date-started: '2026-01-01'
-date-completed: '2026-01-01'
+rating: 3
+date-started: 2026-01-01
+date-completed: 2026-01-01
 description: Cho Kang-hyuk, the owner of a large fitness center, woke up to find himself as a young disciple at Shaolin Temple.
 genre: []
 cssclasses:

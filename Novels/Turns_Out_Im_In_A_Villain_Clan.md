@@ -10,7 +10,7 @@ tags:
 fileClass: novel
 aliases:
   - Turns Out, I’m In A Villain Clan!
-status: Reading
+status: On-Hold
 type: Web Novel
 author: MyriadWriter
 source-url: https://novelfire.net/book/turns-out-im-in-a-villain-clan/chapters?page=&sort_by=desc
@@ -19,8 +19,8 @@ current-chapter: 601
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
-date-started: 
-date-completed: 
+date-started:
+date-completed:
 description: "\"F**K! I'm dead!\" That was the first word I muttered after regaining my memories from Earth. Reincarnating into a world of cultivation should’ve been a blessing. Adventure, immortality, power—what’s not to love? But then I remembered what my family did. My sister just broke off an engagement with a crippled young master—definitely a future protagonist. My mother ripped a Dao Bone from my cousin and gave it to me—guaranteed future revenge arc. And me? I’m already a third-rate villain: bullying weaklings and flaunting my Bai Clan name. Worst part? Despite the Dao Bone, I’m still trash at cultivation. My only hope? The System... which I’ve had for years. "
 genre: []
 cssclasses:
