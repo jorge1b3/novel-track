@@ -9,11 +9,11 @@ tags:
 fileClass: novel
 aliases:
   - I Became a Prisoner in the Game After Defeating the Final Boss
-status: Reading
+status: Completed
 author: Amalha
 source-url: https://www.novelupdates.com/series/i-became-a-prisoner-in-the-game-after-defeating-the-final-boss/
 total-chapters: 225
-current-chapter: 198
+current-chapter: 225
 side-stories-total: 0
 side-stories-read: 0
 rating: 4

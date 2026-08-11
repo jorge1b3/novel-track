@@ -17,7 +17,7 @@ type: Web Novel
 author: 적설목
 source-url: https://www.novelupdates.com/series/the-genius-martial-artist-who-remembers-everything/?__cf_chl_f_tk=WzZR0s3YVSb1oNgTklvvnEUbAfedOh_.0mLtDbt2.1I-1782945236-1.0.1.1-qGyQSidMBJl0Lyk8KiwTt.vtNfheR4.oc62l9Z23JxQ
 total-chapters: 1066
-current-chapter: 262
+current-chapter: 338
 side-stories-total: 0
 side-stories-read: 0
 rating: 4
